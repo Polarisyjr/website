@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://polarisyjr.github.io/website/sitemap.xml

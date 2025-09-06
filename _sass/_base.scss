@@ -426,6 +426,11 @@ ul.task-list input[type="checkbox"] {
         transition-property: all 0.2s ease-in-out;
       }
 
+      // Make Google Scholar icon slightly larger
+      .fa-google-scholar::before {
+        font-size: 1.2em;
+      }
+
       &:hover {
         text-decoration: none;
 

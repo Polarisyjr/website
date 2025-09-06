@@ -51,7 +51,7 @@ scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
   #url: https://www.alberteinstein.com/
 
 cv_pdf: # CV PDF link
-  logo: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/file-pdf/file-pdf-original.svg
+  logo: assets/img/cv-icon-8.svg
   title: CV
   url: assets/pdf/cv.pdf # 你需要将CV文件放到 assets/pdf/ 目录
 

@@ -462,6 +462,27 @@ ninja.data = [{
           window.open("mailto:%79%6A%72%63%73@%75%6D%69%63%68.%65%64%75", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/Polarisyjr", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-cv_pdf',
+        title: 'Cv_pdf',
+        section: 'Socials',
+        handler: () => {
+          window.open("assets/pdf/cv.pdf", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',

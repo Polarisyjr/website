@@ -938,6 +938,36 @@ html.transition *:after {
   }
 }
 
+// About subtitle ("desc" in about.liquid)
+.post-header {
+  .desc {
+    color: var(--global-text-color-light);
+    font-size: 0.95rem; // smaller than body text
+    line-height: 1.6;
+    letter-spacing: 0.2px; // subtle round/soft feel
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+
+    // Icons inside subtitle
+    i::before,
+    i.fa,
+    i.fas,
+    i.far {
+      color: var(--global-text-color-light);
+      margin-right: 0.4rem;
+    }
+
+    // add spacing between groups split by <br>
+    br + i {
+      margin-left: 0.25rem;
+    }
+
+    br {
+      line-height: 0;
+    }
+  }
+}
+
 progress {
   /* Positioning */
   position: fixed;

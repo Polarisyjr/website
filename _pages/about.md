@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <i class="fas fa-university"></i> University of Michigan, Ann Arbor <br> <i class="far fa-university"></i> University of Michigan, Ann Arbor <br> <i class="fas fa-building"></i> University of Michigan, Ann Arbor <br> <i class="far fa-building"></i> University of Michigan, Ann Arbor <br> <i class="fas fa-graduation-cap"></i> University of Michigan, Ann Arbor <br> <i class="far fa-graduation-cap"></i> University of Michigan, Ann Arbor <br> <br> <i class="fas fa-map-marker-alt"></i> Ann Arbor, MI, USA <br> <i class="far fa-map-marker-alt"></i> Ann Arbor, MI, USA <br> <i class="fas fa-map-pin"></i> Ann Arbor, MI, USA <br> <i class="far fa-map-pin"></i> Ann Arbor, MI, USA <br> <i class="fas fa-location-arrow"></i> Ann Arbor, MI, USA <br> <i class="fas fa-crosshairs"></i> Ann Arbor, MI, USA <br> <i class="fas fa-compass"></i> Ann Arbor, MI, USA <br> <i class="fas fa-globe"></i> Ann Arbor, MI, USA
+subtitle: <i class="fas fa-university"></i> University of Michigan, Ann Arbor <br> <i class="fas fa-map-marker-alt"></i> Ann Arbor, MI, USA
 
 profile:
   align: right

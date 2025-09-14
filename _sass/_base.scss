@@ -735,8 +735,7 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
-      .preview {
-      }
+      
 
       .abbr {
         margin-bottom: 0.5rem;
@@ -942,9 +941,12 @@ html.transition *:after {
 .post-header {
   .desc {
     color: var(--global-text-color-light);
-    font-size: 0.95rem; // smaller than body text
+    font-size: 0.9rem; // smaller than body text
     line-height: 1.6;
-    letter-spacing: 0.2px; // subtle round/soft feel
+    letter-spacing: 0.1px; // subtle round/soft feel
+    font-weight: 500;
+    font-family: ui-rounded, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
     margin-top: 0.25rem;
     margin-bottom: 0.75rem;
 
@@ -954,16 +956,17 @@ html.transition *:after {
     i.fas,
     i.far {
       color: var(--global-text-color-light);
-      margin-right: 0.4rem;
+      margin-right: 0.25rem;
+      vertical-align: -0.05em;
     }
 
     // add spacing between groups split by <br>
     br + i {
-      margin-left: 0.25rem;
+      margin-left: 1rem;
     }
 
     br {
-      line-height: 0;
+      display: none;
     }
   }
 }

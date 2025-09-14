@@ -16,7 +16,8 @@ layout: default
         white-space: nowrap !important; /* keep in one line */
       }
       .post-header .desc br { display: none !important; }
-      .post-header .desc i::before { color: var(--global-text-color-light) !important; margin-right: 0.2rem !important; vertical-align: -0.06em; }
+      .post-header .desc i { display: inline-block; transform: translateY(-1px); }
+      .post-header .desc i::before { color: var(--global-text-color-light) !important; margin-right: 0.05rem !important; }
     </style>
     <h1 class="post-title">
       {% if site.title == 'blank' %}

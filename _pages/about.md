@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <i class="fas fa-university"></i> University of Michigan, Ann Arbor <br> <i class="far fa-university"></i> University of Michigan, Ann Arbor <br> <i class="fas fa-building"></i> University of Michigan, Ann Arbor <br> <i class="far fa-building"></i> University of Michigan, Ann Arbor <br> <i class="fas fa-graduation-cap"></i> University of Michigan, Ann Arbor <br> <i class="far fa-graduation-cap"></i> University of Michigan, Ann Arbor <br> <br> <i class="fas fa-map-marker-alt"></i> Ann Arbor, MI, USA <br> <i class="far fa-map-marker-alt"></i> Ann Arbor, MI, USA <br> <i class="fas fa-map-pin"></i> Ann Arbor, MI, USA <br> <i class="far fa-map-pin"></i> Ann Arbor, MI, USA <br> <i class="fas fa-location-arrow"></i> Ann Arbor, MI, USA <br> <i class="fas fa-crosshairs"></i> Ann Arbor, MI, USA <br> <i class="fas fa-compass"></i> Ann Arbor, MI, USA <br> <i class="fas fa-globe"></i> Ann Arbor, MI, USA
 
 profile:
   align: right
@@ -27,8 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+我大四；umich ann arbor；cs和stats双major；在积极26fall寻找phd的机会；这学期就毕业，明年上半年的研究助理或实习工作；
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+我的经历涉猎较广，在确定computer arch前，我曾经接触过包括AI算法，机器人，Agent框架，OS等领域。(过渡句)My research interests lie at the intersection of computer architecture and systems. Through cross-layer codesign of hardware and software, I aim to build domain-specific platforms that efficiently support emerging intelligent workflows.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+我幸运地曾在xxx, yyy, zzz group中研究助理。目前，我在xxx和yyy教授手下做honor thesis。
+
+

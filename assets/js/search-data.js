@@ -398,8 +398,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/website/books/the_godfather/";
-            },},{id: "news-",
-          title: '',
+            },},{id: "news-grateful-to-have-received-an-internship-offer-from-intel-unfortunately-did-not-proceed-pensive",
+          title: 'Grateful to have received an internship offer from Intel — unfortunately did not...',
+          description: "",
+          section: "News",},{id: "news-honors-thesis-proposal-approved",
+          title: 'Honors Thesis proposal approved.',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-the-heterogeneous-chiplet-ecosystem-was-submitted-to-asplos",
+          title: 'Our paper on the heterogeneous chiplet ecosystem was submitted to ASPLOS.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',

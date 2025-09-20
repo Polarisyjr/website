@@ -31,6 +31,6 @@ I'm a senior at the University of Michigan, Ann Arbor, double-majoring in Comput
 
 Before focusing on computer architecture, I explored AI algorithms, robotics, and agent frameworks. My research interests lie at the intersection of computer architecture and systems. Through cross-layer co-design of hardware and software, I aim to build domain-specific platforms that efficiently support emerging intelligent workflows.
 
-I have been fortunate to work as a research assistant in [LIMOS](https://limos.engin.umich.edu/), [CCG](https://crucible.eecs.umich.edu/), and the [Synergy Lab](https://synergy.ece.gatech.edu/). I am currently conducting my Honors Thesis on ISA-hardware co-design using e-graphs, advised by Professors [Nathaniel Bleier](https://crucible.eecs.umich.edu/) and [Krisztian Flautner](https://www.linkedin.com/in/kflautner/).
+I have been fortunate to work as a research assistant in [LIMOS](https://limos.engin.umich.edu/), [CCG](https://crucible.eecs.umich.edu/), and the [Synergy Lab](https://synergy.ece.gatech.edu/). I am currently conducting my Honors Thesis on ISA-hardware co-design using e-graphs, advised by Prof. [Nathaniel Bleier](https://crucible.eecs.umich.edu/) and Prof. [Krisztian Flautner](https://www.linkedin.com/in/kflautner/).
 
 

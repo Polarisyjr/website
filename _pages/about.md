@@ -27,10 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-我大四；umich ann arbor；cs和stats双major；在积极26fall寻找phd的机会；这学期就毕业，明年上半年的研究助理或实习工作；
+I'm a senior at the University of Michigan, Ann Arbor, double-majoring in Computer Science and Statistics. I'm actively seeking PhD opportunities for Fall 2026. I will graduate this semester and am open to research assistant or internship roles in the first half of next year.
 
-我的经历涉猎较广，在确定computer arch前，我曾经接触过包括AI算法，机器人，Agent框架，OS等领域。(过渡句)My research interests lie at the intersection of computer architecture and systems. Through cross-layer codesign of hardware and software, I aim to build domain-specific platforms that efficiently support emerging intelligent workflows.
+Before focusing on computer architecture, I explored AI algorithms, robotics, and agent frameworks. My research interests lie at the intersection of computer architecture and systems. Through cross-layer co-design of hardware and software, I aim to build domain-specific platforms that efficiently support emerging intelligent workflows.
 
-我幸运地曾在xxx, yyy, zzz group中研究助理。目前，我在xxx和yyy教授手下做honor thesis。
+I have been fortunate to work as a research assistant in [LIMOS](https://limos.engin.umich.edu/), [CCG](https://crucible.eecs.umich.edu/), and the [Synergy Lab](https://synergy.ece.gatech.edu/). I am currently conducting my Honors Thesis on ISA-hardware co-design using e-graphs, advised by Professors [Nathaniel Bleier](https://crucible.eecs.umich.edu/) and [Krisztian Flautner](https://www.linkedin.com/in/kflautner/).
 
 

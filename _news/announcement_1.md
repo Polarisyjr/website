@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-08-20 11:59:00-0400
+date: 2025-03-06
 inline: true
 related_posts: false
 ---
 
-<!-- A simple inline announcement. -->
+Grateful to have received an internship offer from Intel — unfortunately did not proceed. :pensive:

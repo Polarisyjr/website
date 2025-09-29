@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a senior at the University of Michigan, Ann Arbor, double-majoring in Computer Science and Statistics. I'm actively seeking PhD opportunities for Fall 2026. I will graduate this semester and am open to research assistant or internship roles in the first half of next year.
+I'm a senior at the University of Michigan, Ann Arbor, double-majoring in Computer Science and Statistics. I’m actively seeking PhD opportunities starting in Fall 2026 and am also open to full‑time roles. I will graduate this semester and am open to research assistant roles, internships, and entry‑level positions.
 
 Before focusing on computer architecture, I explored AI algorithms, robotics, and agent frameworks. My research interests lie at the intersection of computer architecture and systems. Through cross-layer co-design of hardware and software, I aim to build domain-specific platforms that efficiently support emerging intelligent workflows.
 

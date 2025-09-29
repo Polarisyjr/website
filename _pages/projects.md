@@ -9,7 +9,7 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
-<!-- pages/academics.md -->
+<!-- pages/projects.md -->
 <div class="academics">
   
   <div class="coursework-section">

@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-academics",
           title: "Academics",
-          description: "Academic coursework and project portfolio.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/website/academics/";

@@ -24,6 +24,23 @@ layout: default
         line-height: 1.7 !important;
         margin-bottom: 1.2rem !important;
       }
+      
+      /* Improve news section alignment and styling */
+      .news table th {
+        text-align: right !important;
+        vertical-align: top !important;
+        padding-right: 1rem !important;
+        font-weight: 600 !important;
+        color: var(--global-text-color-light) !important;
+        font-size: 0.9rem !important;
+      }
+      
+      .news table td {
+        text-align: justify !important;
+        text-justify: inter-word !important;
+        line-height: 1.6 !important;
+        vertical-align: top !important;
+      }
     </style>
     <h1 class="post-title">
       {% if site.title == 'blank' %}

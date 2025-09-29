@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <i class="fas fa-university"></i> University of Michigan, Ann Arbor <br> <i class="fas fa-map-marker-alt"></i> Ann Arbor, MI, USA
 

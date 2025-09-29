@@ -13,9 +13,9 @@ hide_title: true
 <div class="academics">
   
   <div class="coursework-section">
-    <h2 class="section-title">Academics and Coursework</h2>
+    <h2 class="section-title" style="font-weight: bold;">Academics and Coursework</h2>
     
-    <h3 style="color: #666; font-size: 1.2rem; margin-bottom: 0.5rem;">Selected List of Courses Taken</h3>
+    <h3 style="color: #666; font-size: 1.2rem; margin-bottom: 0.5rem; font-weight: 600;">Selected List of Courses Taken</h3>
     <p style="font-style: italic; color: #888; margin-bottom: 2rem;">All courses taken at the University of Michigan.</p>
     
     <div class="table-responsive">

@@ -10,15 +10,6 @@ hide_title: true
 ---
 
 <!-- pages/projects.md -->
-<style>
-  /* Hide page title when hide_title is set */
-  {% if page.hide_title %}
-  .post-title {
-    display: none !important;
-  }
-  {% endif %}
-</style>
-
 <div class="academics">
   
   <div class="coursework-section">

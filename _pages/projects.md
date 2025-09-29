@@ -2,14 +2,23 @@
 layout: page
 title: Academics
 permalink: /academics/
-description: Academic coursework and project portfolio.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
+hide_title: true
 ---
 
 <!-- pages/projects.md -->
+<style>
+  /* Hide page title when hide_title is set */
+  {% if page.hide_title %}
+  .post-title {
+    display: none !important;
+  }
+  {% endif %}
+</style>
+
 <div class="academics">
   
   <div class="coursework-section">

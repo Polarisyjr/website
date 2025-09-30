@@ -98,10 +98,36 @@ hide_title: true
         </tbody>
       </table>
     </div>
+    
+    <!-- Course Projects Section -->
+    <div style="margin-top: 3rem;">
+      <h3 style="color: #666; font-size: 1.2rem; margin-bottom: 0.5rem; font-weight: 600;">Course Projects</h3>
+      <p style="font-style: italic; color: #888; margin-bottom: 2rem;">Selected projects from academic coursework.</p>
+      
+      <div class="course-projects">
+        <div style="margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid #ddd;">
+          <h4 style="margin-bottom: 0.5rem; font-weight: 600;">Project Title 1</h4>
+          <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">EECS 570 - Parallel Computer Architecture</p>
+          <p style="margin-bottom: 0;">Brief description of the project and key achievements.</p>
+        </div>
+        
+        <div style="margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid #ddd;">
+          <h4 style="margin-bottom: 0.5rem; font-weight: 600;">Project Title 2</h4>
+          <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">EECS 573 - Microarchitecture</p>
+          <p style="margin-bottom: 0;">Brief description of the project and key achievements.</p>
+        </div>
+        
+        <div style="margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid #ddd;">
+          <h4 style="margin-bottom: 0.5rem; font-weight: 600;">Project Title 3</h4>
+          <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">EECS 545 - Advanced Machine Learning</p>
+          <p style="margin-bottom: 0;">Brief description of the project and key achievements.</p>
+        </div>
+      </div>
+    </div>
   </div>
   
   <!-- Original Projects Section -->
-  {% comment %}
+  <!-- {% comment %}-->
   <div class="projects-section" style="margin-top: 3rem;">
     <h2 class="section-title">Projects</h2>
     
@@ -153,6 +179,6 @@ hide_title: true
     {% endif %}
     </div>
   </div>
-  {% endcomment %}
+  <!-- {% endcomment %}-->
   
 </div>

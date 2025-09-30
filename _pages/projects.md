@@ -20,7 +20,7 @@ hide_title: true
     
     <div class="table-responsive">
       <table class="table table-bordered">
-        <thead style="background-color: #f8e8e8;">
+        <thead>
           <tr>
             <th style="font-weight: bold;">Course Number</th>
             <th style="font-weight: bold;">Course Title</th>
@@ -32,7 +32,7 @@ hide_title: true
           <tr>
             <td>EECS 443</td>
             <td>Honors Thesis</td>
-            <td>Present</td>
+            <td>--</td>
             <td>Fall 2025</td>
           </tr>
           <tr>

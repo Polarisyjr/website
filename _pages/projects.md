@@ -19,7 +19,13 @@ hide_title: true
     <p style="font-style: italic; color: #888; margin-bottom: 2rem;">All courses taken at the University of Michigan.</p>
     
     <div class="table-responsive">
-      <table class="table table-bordered">
+      <table class="table table-bordered" style="line-height: 1.2;">
+      <style>
+        .table td, .table th {
+          padding: 0.5rem !important;
+          vertical-align: middle;
+        }
+      </style>
         <thead>
           <tr>
             <th style="font-weight: bold;">Course Number</th>
@@ -95,7 +101,7 @@ hide_title: true
   </div>
   
   <!-- Original Projects Section -->
-  <!--
+  {% comment %}
   <div class="projects-section" style="margin-top: 3rem;">
     <h2 class="section-title">Projects</h2>
     
@@ -126,10 +132,7 @@ hide_title: true
 
     {% else %}
 
-
     {% assign sorted_projects = site.projects | sort: "importance" %}
-
-
 
     {% if page.horizontal %}
 
@@ -150,6 +153,6 @@ hide_title: true
     {% endif %}
     </div>
   </div>
-  -->
+  {% endcomment %}
   
 </div>

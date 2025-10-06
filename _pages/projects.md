@@ -110,12 +110,12 @@ hide_title: true
             <h4 style="margin-bottom: 0.5rem; font-weight: 600;"><a href="{{ '/assets/pdf/EECS_470_Final_Report.pdf' | relative_url }}" target="_blank" style="text-decoration:none; color:inherit;">A-SOUL: Advanced n-way Superscalar Out-of-order Unified Logic design</a></h4>
             <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.75rem;">EECS 470 - Computer Architecture</p>
             <p style="margin-bottom: 0;">Brief description of the project and key achievements.</p>
-            <img src="{{ '/assets/img/Project_Architecture.png' | relative_url }}" alt="project architecture" style="width:100%; max-width:460px; height:auto; object-fit:cover; border-radius:4px; margin-top:0.85rem;"/>
+            <img class="course-project-img zoomable" src="{{ '/assets/img/Project_Architecture.png' | relative_url }}" alt="project architecture" style="width:100%; max-width:460px; height:auto; object-fit:cover; border-radius:4px; margin-top:0.85rem; cursor:zoom-in;"/>
           </div>
         </div>
         
         <div class="course-project-item" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid #ddd; display:flex; gap:1rem; align-items:flex-start;">
-          <img src="{{ '/assets/img/Project_Architecture.png' | relative_url }}" alt="project architecture" style="width:180px; height:auto; object-fit:cover; border-radius:4px;"/>
+          <img class="course-project-img zoomable" src="{{ '/assets/img/Project_Architecture.png' | relative_url }}" alt="project architecture" style="width:180px; height:auto; object-fit:cover; border-radius:4px; cursor:zoom-in;"/>
           <div>
             <h4 style="margin-bottom: 0.5rem; font-weight: 600;"><a href="{{ '/assets/pdf/582_final_report.pdf' | relative_url }}" target="_blank" style="text-decoration:none; color:inherit;">WriteBoost RCU: an Enhanced RCU Library that provides an RCU-centric Update-side Synchronization Mechanism</a></h4>
             <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">CSE 582 - Advanced Operating Systems</p>
@@ -183,3 +183,47 @@ hide_title: true
   <!-- {% endcomment %}-->
   
 </div>
+
+<!-- Image Lightbox (inline for this page) -->
+<style>
+  .lightbox-backdrop {position:fixed; inset:0; background:rgba(0,0,0,.65); display:none; align-items:center; justify-content:center; z-index:9999; padding:2rem;}
+  .lightbox-backdrop.active {display:flex;}
+  .lightbox-content {max-width: min(90vw,1200px); max-height: 90vh; position:relative;}
+  .lightbox-content img {width:100%; height:auto; border-radius:6px; box-shadow:0 6px 24px -4px rgba(0,0,0,.4);}   
+  .lightbox-close {position:absolute; top:-14px; right:-14px; background:#fff; border-radius:50%; width:34px; height:34px; border:1px solid #ccc; display:flex; align-items:center; justify-content:center; cursor:pointer; font-size:20px; font-weight:600; line-height:1;}
+  .lightbox-close:hover {background:#f2f2f2;}
+  @media (max-width: 600px){ .lightbox-content {padding:0;}} 
+</style>
+<div id="lightboxBackdrop" class="lightbox-backdrop" aria-modal="true" role="dialog">
+  <div class="lightbox-content">
+    <button class="lightbox-close" aria-label="Close" title="Close">×</button>
+    <img id="lightboxImage" alt="Expanded project image" />
+  </div>
+</div>
+<script>
+(function(){
+  const imgs = document.querySelectorAll('.zoomable');
+  const backdrop = document.getElementById('lightboxBackdrop');
+  const outImg = document.getElementById('lightboxImage');
+  const closeBtn = backdrop.querySelector('.lightbox-close');
+  function open(src, alt){
+    outImg.src = src; outImg.alt = alt || 'project image';
+    backdrop.classList.add('active');
+    document.body.style.overflow='hidden';
+  }
+  function close(){
+    backdrop.classList.remove('active');
+    document.body.style.overflow='';
+  }
+  imgs.forEach(img=>{
+    img.addEventListener('click', ()=> open(img.src, img.alt));
+    img.addEventListener('keydown', e=>{ if(e.key==='Enter') open(img.src, img.alt); });
+    img.setAttribute('tabindex','0');
+    img.setAttribute('role','button');
+    img.setAttribute('aria-label','Open image in larger view');
+  });
+  backdrop.addEventListener('click', e=>{ if(e.target===backdrop) close(); });
+  closeBtn.addEventListener('click', close);
+  document.addEventListener('keydown', e=>{ if(e.key==='Escape' && backdrop.classList.contains('active')) close(); });
+})();
+</script>

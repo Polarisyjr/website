@@ -105,23 +105,24 @@ hide_title: true
       <p style="font-style: italic; color: #888; margin-bottom: 2rem;">Selected projects from academic coursework.</p>
       
       <div class="course-projects">
-        <div style="margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid #ddd;">
-          <h4 style="margin-bottom: 0.5rem; font-weight: 600;">Project Title 1</h4>
-          <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">EECS 570 - Parallel Computer Architecture</p>
-          <p style="margin-bottom: 0;">Brief description of the project and key achievements.</p>
+        <div style="margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid #ddd; display:flex; gap:1rem; align-items:flex-start;">
+          <img src="/assets/placeholders/Project_Architecture.png" alt="project architecture" style="width:180px; height:auto; object-fit:cover; border-radius:4px;"/>
+          <div>
+            <h4 style="margin-bottom: 0.5rem; font-weight: 600;">A-SOUL: Advanced n-way Superscalar Out-of-order Unified Logic design</h4>
+            <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;"><a href="/assets/placeholders/EECS_470_Final_Report.pdf" target="_blank">EECS 470 - Computer Architecture (PDF)</a></p>
+            <p style="margin-bottom: 0;">Brief description of the project and key achievements.</p>
+          </div>
         </div>
         
-        <div style="margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid #ddd;">
-          <h4 style="margin-bottom: 0.5rem; font-weight: 600;">Project Title 2</h4>
-          <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">EECS 573 - Microarchitecture</p>
-          <p style="margin-bottom: 0;">Brief description of the project and key achievements.</p>
+        <div style="margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid #ddd; display:flex; gap:1rem; align-items:flex-start;">
+          <img src="/assets/placeholders/Project_Architecture.png" alt="project architecture" style="width:180px; height:auto; object-fit:cover; border-radius:4px;"/>
+          <div>
+            <h4 style="margin-bottom: 0.5rem; font-weight: 600;">WriteBoost RCU: an Enhanced RCU Library that provides an RCU-centric Update-side Synchronization Mechanism</h4>
+            <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;"><a href="/assets/placeholders/582_final_report.pdf" target="_blank">CSE 582 - Advanced Operating Systems (PDF)</a></p>
+            <p style="margin-bottom: 0;">Brief description of the project and key achievements.</p>
+          </div>
         </div>
-        
-        <div style="margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid #ddd;">
-          <h4 style="margin-bottom: 0.5rem; font-weight: 600;">Project Title 3</h4>
-          <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">EECS 545 - Advanced Machine Learning</p>
-          <p style="margin-bottom: 0;">Brief description of the project and key achievements.</p>
-        </div>
+
       </div>
     </div>
   </div>

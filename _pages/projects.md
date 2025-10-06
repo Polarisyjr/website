@@ -105,12 +105,12 @@ hide_title: true
       <p style="font-style: italic; color: #888; margin-bottom: 2rem;">Selected projects from academic coursework.</p>
       
       <div class="course-projects">
-        <div class="course-project-item" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid #ddd; display:flex; gap:1rem; align-items:flex-start;">
-          <img src="{{ '/assets/img/Project_Architecture.png' | relative_url }}" alt="project architecture" style="width:180px; height:auto; object-fit:cover; border-radius:4px;"/>
+        <div class="course-project-item" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid #ddd;">
           <div>
             <h4 style="margin-bottom: 0.5rem; font-weight: 600;"><a href="{{ '/assets/pdf/EECS_470_Final_Report.pdf' | relative_url }}" target="_blank" style="text-decoration:none; color:inherit;">A-SOUL: Advanced n-way Superscalar Out-of-order Unified Logic design</a></h4>
-            <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">EECS 470 - Computer Architecture</p>
+            <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.75rem;">EECS 470 - Computer Architecture</p>
             <p style="margin-bottom: 0;">Brief description of the project and key achievements.</p>
+            <img src="{{ '/assets/img/Project_Architecture.png' | relative_url }}" alt="project architecture" style="width:100%; max-width:460px; height:auto; object-fit:cover; border-radius:4px; margin-top:0.85rem;"/>
           </div>
         </div>
         

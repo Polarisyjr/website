@@ -126,7 +126,13 @@ hide_title: true
           <div>
             <h4 style="margin-bottom: 0.5rem; font-weight: 600;"><a href="{{ '/assets/pdf/582_final_report.pdf' | relative_url }}" target="_blank" style="text-decoration:none; color:inherit;">WriteBoost RCU: an Enhanced RCU Library that provides an RCU-centric Update-side Synchronization Mechanism</a></h4>
             <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">CSE 582 - Advanced Operating Systems</p>
-            <p style="margin-bottom: 0;">Brief description of the project and key achievements.</p>
+            <div class="course-project-desc" style="text-align: justify; text-justify: inter-word;">
+              <p style="margin: 0 0 0.95rem 0;">WriteBoost RCU extends the classic Read-Copy-Update (RCU) synchronization mechanism by integrating update-side coordination into the library, eliminating the need for external locks. Compared to liburcu and Folly RCU, it maintains RCU’s wait-free reads while simplifying writer logic and improving throughput in balanced workloads.</p>
+
+              <p style="margin: 0 0 0.95rem 0;">The design introduces a single updater/reclaimer model, batch update processing, and an object pool for memory reuse—together removing retirement-list contention and amortizing copy costs. An epoch-based reader–reclaimer synchronization scheme ensures safe reclamation with amortized O(1) complexity and zero reader contention.</p>
+
+              <p style="margin: 0;">Evaluated against existing RCU and mutex-based mechanisms, WriteBoost RCU achieved 3.49 B reads/s and 35 M writes/s (1 thread), outperforming Folly RCU by ~1.8× on reads and maintaining competitive write performance. The project demonstrates that RCU can scale effectively beyond read-heavy workloads, combining high programmability with robust multi-core efficiency.</p>
+            </div>
           </div>
         </div>
 

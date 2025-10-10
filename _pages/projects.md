@@ -124,7 +124,6 @@ hide_title: true
         </div>
         
         <div class="course-project-item" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid #ddd; display:flex; gap:1rem; align-items:flex-start;">
-          <img class="course-project-img zoomable" src="{{ '/assets/img/Project_Architecture.png' | relative_url }}" alt="project architecture" style="width:180px; height:auto; object-fit:cover; border-radius:4px; cursor:zoom-in;"/>
           <div>
             <h4 style="margin-bottom: 0.5rem; font-weight: 600;"><a href="{{ '/assets/pdf/582_final_report.pdf' | relative_url }}" target="_blank" style="text-decoration:none; color:inherit;">WriteBoost RCU: an Enhanced RCU Library that provides an RCU-centric Update-side Synchronization Mechanism</a></h4>
             <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">CSE 582 - Advanced Operating Systems</p>

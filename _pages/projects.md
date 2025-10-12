@@ -105,7 +105,7 @@ hide_title: true
       <p style="font-style: italic; color: #888; margin-bottom: 2rem;">Selected projects from academic coursework.</p>
       <style>
         /* Make course project titles visibly link-styled (blue + underline on hover) */
-        .course-project-item h4 a { color: #0d6efd; text-decoration: none; }
+        .course-project-item h4 a { color: #3999b6; text-decoration: none; }
         .course-project-item h4 a:hover,
         .course-project-item h4 a:focus { text-decoration: underline; color: #0a58ca; }
       </style>

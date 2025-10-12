@@ -131,7 +131,7 @@ hide_title: true
 
               <p style="margin: 0 0 0.95rem 0;">The design introduces a single updater/reclaimer model, batch update processing, and an object pool for memory reuse—together removing retirement-list contention and amortizing copy costs. An epoch-based reader–reclaimer synchronization scheme ensures safe reclamation with amortized O(1) complexity and zero reader contention.</p>
 
-              <p style="margin: 0;">Evaluated against existing RCU and mutex-based mechanisms, WriteBoost RCU achieved 3.49 B reads/s and 35 M writes/s (1 thread), outperforming Folly RCU by ~1.8× on reads and maintaining competitive write performance. The project demonstrates that RCU can scale effectively beyond read-heavy workloads, combining high programmability with robust multi-core efficiency.</p>
+              <p style="margin: 0;">Evaluated against existing RCU and mutex-based mechanisms, WriteBoost RCU achieved 3.49 B reads/s and 35 M writes/s (8 thread), outperforming Folly RCU by ~1.8× on reads and maintaining competitive write performance. The project demonstrates that RCU can scale effectively beyond read-heavy workloads, combining high programmability with robust multi-core efficiency.</p>
             </div>
           </div>
         </div>

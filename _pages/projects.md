@@ -103,11 +103,17 @@ hide_title: true
     <div style="margin-top: 3rem;">
       <h3 style="color: #666; font-size: 1.2rem; margin-bottom: 0.5rem; font-weight: 600;">Course Projects</h3>
       <p style="font-style: italic; color: #888; margin-bottom: 2rem;">Selected projects from academic coursework.</p>
+      <style>
+        /* Make course project titles visibly link-styled (blue + underline on hover) */
+        .course-project-item h4 a { color: #0d6efd; text-decoration: none; }
+        .course-project-item h4 a:hover,
+        .course-project-item h4 a:focus { text-decoration: underline; color: #0a58ca; }
+      </style>
       
       <div class="course-projects">
         <div class="course-project-item" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid #ddd;">
           <div>
-            <h4 style="margin-bottom: 0.5rem; font-weight: 600;"><a href="{{ '/assets/pdf/EECS_470_Final_Report.pdf' | relative_url }}" target="_blank" style="text-decoration:none; color:inherit;">A-SOUL: Advanced n-way Superscalar Out-of-order Unified Logic design</a></h4>
+            <h4 style="margin-bottom: 0.5rem; font-weight: 600;"><a href="{{ '/assets/pdf/EECS_470_Final_Report.pdf' | relative_url }}" target="_blank">A-SOUL: Advanced n-way Superscalar Out-of-order Unified Logic design</a></h4>
             <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.85rem;">EECS 470 - Computer Architecture</p>
             <img class="course-project-img zoomable" src="{{ '/assets/img/Project_Architecture.png' | relative_url }}" alt="project architecture" style="width:100%; max-width:960px; height:auto; object-fit:cover; border-radius:6px; margin:0 0 0.95rem 0; cursor:zoom-in;"/>
             <div class="course-project-desc" style="text-align: justify; text-justify: inter-word;">
@@ -124,7 +130,7 @@ hide_title: true
         
         <div class="course-project-item" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid #ddd; display:flex; gap:1rem; align-items:flex-start;">
           <div>
-            <h4 style="margin-bottom: 0.5rem; font-weight: 600;"><a href="{{ '/assets/pdf/582_final_report.pdf' | relative_url }}" target="_blank" style="text-decoration:none; color:inherit;">WriteBoost RCU: an Enhanced RCU Library that provides an RCU-centric Update-side Synchronization Mechanism</a></h4>
+            <h4 style="margin-bottom: 0.5rem; font-weight: 600;"><a href="{{ '/assets/pdf/582_final_report.pdf' | relative_url }}" target="_blank">WriteBoost RCU: an Enhanced RCU Library that provides an RCU-centric Update-side Synchronization Mechanism</a></h4>
             <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">CSE 582 - Advanced Operating Systems</p>
             <div class="course-project-desc" style="text-align: justify; text-justify: inter-word;">
               <p style="margin: 0 0 0.95rem 0;">WriteBoost RCU extends the classic Read-Copy-Update (RCU) synchronization mechanism by integrating update-side coordination into the library, eliminating the need for external locks. Compared to liburcu and Folly RCU, it maintains RCU’s wait-free reads while simplifying writer logic and improving throughput in balanced workloads.</p>

@@ -8,7 +8,8 @@ body {
   padding-bottom: 9em;
   font-family: "Source Sans 3", "Atkinson Hyperlegible", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400 !important;
+  font-weight: 300 !important;
+  font-size: 18px !important;
 }
 
 /* Ensure common controls inherit the site font (override vendor defaults) */
@@ -1342,7 +1343,7 @@ ninja-keys::part(ninja-input-wrapper) {
   .newsletter-loading-button,
   .newsletter-success,
   .newsletter-error {
-    font-size: 22.5px !important;
+    font-size: 18px !important;
   }
   .newsletter-form-container {
     margin-right: 20px;

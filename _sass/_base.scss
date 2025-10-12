@@ -9,6 +9,15 @@ body {
   font-family: "Source Sans 3", "Atkinson Hyperlegible", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   line-height: 1.5;
 }
+
+/* Ensure common controls inherit the site font (override vendor defaults) */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+}
 h3,
 h4,
 h5,

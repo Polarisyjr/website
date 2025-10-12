@@ -4,6 +4,11 @@
 
 // Typography
 
+/* Global color override: ensure all components using var(--global-text-color) pick this up */
+:root {
+  --global-text-color: rgb(73, 78, 82);
+}
+
 body {
   padding-bottom: 9em;
   font-family: "Source Sans 3", "Atkinson Hyperlegible", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;

@@ -330,6 +330,8 @@ ul.task-list input[type="checkbox"] {
     font-size: 1.7rem;
 
     a {
+      /* Let anchors provide color to svg paths using currentColor */
+      color: var(--global-icon-color);
       img {
         width: 1.7rem;
         height: 1.7rem;
@@ -342,6 +344,10 @@ ul.task-list input[type="checkbox"] {
         height: 1.7rem;
         margin-bottom: 0.5rem;
 
+        /* If the SVG uses currentColor, ensure it's not overridden elsewhere */
+        fill: currentColor;
+        stroke: currentColor;
+
         image {
           width: 1.7rem;
           height: 1.7rem;
@@ -349,11 +355,12 @@ ul.task-list input[type="checkbox"] {
       }
 
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-icon-color);
         transition-property: all 0.2s ease-in-out;
       }
 
       &:hover {
+        color: var(--global-theme-color);
         i::before {
           color: var(--global-theme-color);
         }
@@ -423,6 +430,7 @@ ul.task-list input[type="checkbox"] {
     font-size: 2.5rem;
 
     a {
+      color: var(--global-icon-color);
       img {
         width: 2.5rem;
         height: 2.5rem;
@@ -434,6 +442,9 @@ ul.task-list input[type="checkbox"] {
         height: 2.5rem;
         margin-bottom: 0.5rem;
 
+        fill: currentColor;
+        stroke: currentColor;
+
         image {
           width: 2.5rem;
           height: 2.5rem;
@@ -441,7 +452,7 @@ ul.task-list input[type="checkbox"] {
       }
 
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-icon-color);
         transition-property: all 0.2s ease-in-out;
       }
 
@@ -453,6 +464,7 @@ ul.task-list input[type="checkbox"] {
 
       &:hover {
         text-decoration: none;
+        color: var(--global-theme-color);
 
         i::before {
           color: var(--global-theme-color);

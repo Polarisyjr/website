@@ -308,7 +308,7 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
-    font-weight: 600; /* make top nav (About, Research, Academic) bold */
+    font-weight: 400; /* make top nav (About, Research, Academic) bold */
 
     &:hover {
       color: var(--global-hover-color);
@@ -319,7 +319,7 @@ ul.task-list input[type="checkbox"] {
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
-
+    font-weight: 400;
     &:hover {
       color: var(--global-hover-color);
     }
@@ -694,7 +694,7 @@ footer.sticky-bottom {
 /* Recent News section: emphasize items */
 .news {
   table td {
-    font-weight: 600; /* inline news content */
+    font-weight: 400; /* inline news content */
   }
   a.news-title {
     font-weight: 700; /* linked news titles */
@@ -977,6 +977,11 @@ html.transition *:after {
       }
     }
   }
+}
+
+/* Make the "Recent News" heading bolder */
+.post h2 a.recent-news-title {
+  font-weight: 700 !important;
 }
 
 // About subtitle ("desc" in about.liquid)

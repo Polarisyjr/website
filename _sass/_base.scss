@@ -308,6 +308,7 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-weight: 600; /* make top nav (About, Research, Academic) bold */
 
     &:hover {
       color: var(--global-hover-color);
@@ -687,6 +688,16 @@ footer.sticky-bottom {
   a:hover {
     border-bottom-color: var(--global-theme-color);
     text-decoration: none;
+  }
+}
+
+/* Recent News section: emphasize items */
+.news {
+  table td {
+    font-weight: 600; /* inline news content */
+  }
+  a.news-title {
+    font-weight: 700; /* linked news titles */
   }
 }
 

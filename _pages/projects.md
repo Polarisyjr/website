@@ -19,12 +19,14 @@ hide_title: true
     <p style="font-style: italic; color: #888; margin-bottom: 2rem;">All courses taken at the University of Michigan.</p>
     
     <div class="table-responsive">
-      <table class="table table-bordered" style="line-height: 1.2;">
+      <table class="table table-bordered course-table" style="line-height: 1.2;">
       <style>
         .table td, .table th {
           padding: 0.5rem !important;
           vertical-align: middle;
         }
+        /* Slightly bolder text for coursework table cells */
+        .course-table td { font-weight: 300; }
       </style>
         <thead>
           <tr>

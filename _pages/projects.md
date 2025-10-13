@@ -26,7 +26,7 @@ hide_title: true
           vertical-align: middle;
         }
         /* Slightly bolder text for coursework table cells */
-        .course-table td { font-weight: 300; }
+        .course-table td { font-weight: 400; }
       </style>
         <thead>
           <tr>

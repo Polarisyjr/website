@@ -374,8 +374,15 @@ ul.task-list input[type="checkbox"] {
   .navbar-brand.title * {
     color: #000 !important;
   }
-  .navbar-brand.title .font-weight-lighter {
-    font-weight: 300 !important;
+  /* If the <a> itself has .font-weight-lighter, target the same element (no space).
+     Also ensure the brand defaults to normal weight and the first-name span stays bold. */
+  .navbar-brand.title.font-weight-lighter,
+  .navbar-brand.title {
+    font-weight: 400 !important;
+  }
+
+  .navbar-brand.title .font-weight-bold {
+    font-weight: 700 !important;
   }
   /* Stronger override for about page header title and any bolded first name */
   .post-header .post-title,

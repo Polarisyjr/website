@@ -174,6 +174,23 @@ html[data-theme-setting="dark"] {
     color: var(--global-back-to-top-text-color);
     background: var(--global-back-to-top-bg-color);
   }
+
+  /* When dark mode is driven by data-theme-setting instead of data-theme,
+     ensure the navbar brand (site name) switches to white. Duplicate of
+     rules inside html[data-theme="dark"]. */
+  .navbar-brand.title,
+  .navbar-brand.title *,
+  .navbar-brand.title .font-weight-bold {
+    color: #fff !important;
+  }
+  /* Also keep academics and about/main titles consistent if page is loaded under this attribute */
+  .post-header .post-title,
+  .post-header .post-title .font-weight-bold,
+  h1.post-title .font-weight-bold,
+  .post h2 a.recent-news-title,
+  .academics .section-title {
+    color: #fff !important;
+  }
 }
 
 html[data-theme-setting="light"] {

@@ -368,6 +368,12 @@ ul.task-list input[type="checkbox"] {
       }
     }
   }
+
+  /* Ensure the site title / brand (e.g. "Jirong Yang") is black in navbar and mobile */
+  .navbar-brand.title,
+  .navbar-brand.title * {
+    color: #000 !important;
+  }
 }
 
 .navbar-toggler {

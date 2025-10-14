@@ -140,6 +140,19 @@ html[data-theme="dark"] {
   h1.post-title .font-weight-bold {
     color: #fff !important;
   }
+  /* Recent News heading in dark mode */
+  .post h2 a.recent-news-title {
+    color: #fff !important;
+  }
+  /* Navbar brand (site name) in dark mode */
+  .navbar-brand.title,
+  .navbar-brand.title * {
+    color: #fff !important;
+  }
+  /* Academics page main heading */
+  .academics .section-title {
+    color: #fff !important;
+  }
 }
 
 html[data-theme-setting="dark"] {

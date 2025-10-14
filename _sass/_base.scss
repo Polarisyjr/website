@@ -369,9 +369,12 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  /* Ensure the site title / brand (e.g. "Jirong Yang") is black in navbar and mobile */
-  .navbar-brand.title,
-  .navbar-brand.title * {
+  /* Ensure the site title / brand (e.g. "Jirong Yang") is black ONLY in light mode.
+     We scope by theme attributes so dark mode overrides turn both parts white. */
+  html:not([data-theme="dark"]) .navbar-brand.title,
+  html:not([data-theme="dark"]) .navbar-brand.title *,
+  html[data-theme-setting="light"] .navbar-brand.title,
+  html[data-theme-setting="light"] .navbar-brand.title * {
     color: #000 !important;
   }
   /* If the <a> itself has .font-weight-lighter, target the same element (no space).

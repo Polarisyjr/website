@@ -369,14 +369,7 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  /* Ensure the site title / brand (e.g. "Jirong Yang") is black ONLY in light mode.
-     We scope by theme attributes so dark mode overrides turn both parts white. */
-  html:not([data-theme="dark"]) .navbar-brand.title,
-  html:not([data-theme="dark"]) .navbar-brand.title *,
-  html[data-theme-setting="light"] .navbar-brand.title,
-  html[data-theme-setting="light"] .navbar-brand.title * {
-    color: #000 !important;
-  }
+  /* Brand weight rules (color is handled globally by theme-scoped rules) */
   /* If the <a> itself has .font-weight-lighter, target the same element (no space).
      Also ensure the brand defaults to normal weight and the first-name span stays bold. */
   .navbar-brand.title.font-weight-lighter,
@@ -387,6 +380,15 @@ ul.task-list input[type="checkbox"] {
   .navbar-brand.title .font-weight-bold {
     font-weight: 700 !important;
   }
+}
+
+/* Ensure the site title / brand (e.g. "Jirong Yang") is black ONLY in light mode.
+   Place outside of navbar nesting so the selector starts with html and matches correctly. */
+html:not([data-theme="dark"]) .navbar-brand.title,
+html:not([data-theme="dark"]) .navbar-brand.title *,
+html[data-theme-setting="light"] .navbar-brand.title,
+html[data-theme-setting="light"] .navbar-brand.title * {
+  color: #000 !important;
 }
 
 .navbar-toggler {

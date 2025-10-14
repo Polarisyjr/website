@@ -13,6 +13,10 @@ hide_title: true
 <div class="academics">
   
   <div class="coursework-section">
+    <style>
+      /* Force section title to be black on Academics page */
+      .academics .section-title { color: #000 !important; }
+    </style>
     <h2 class="section-title" style="font-weight: bold;">Academics and Coursework</h2>
     
     <h3 style="color: #666; font-size: 1.2rem; margin-bottom: 0.5rem; font-weight: 600;">Selected List of Courses Taken</h3>

@@ -374,6 +374,13 @@ ul.task-list input[type="checkbox"] {
   .navbar-brand.title * {
     color: #000 !important;
   }
+
+  /* Stronger override for about page header title and any bolded first name */
+  .post-header .post-title,
+  .post-header .post-title .font-weight-bold,
+  h1.post-title .font-weight-bold {
+    color: #000 !important;
+  }
 }
 
 .navbar-toggler {

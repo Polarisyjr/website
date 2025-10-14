@@ -384,15 +384,6 @@ ul.task-list input[type="checkbox"] {
   .navbar-brand.title .font-weight-bold {
     font-weight: 700 !important;
   }
-  /* Stronger override for about page header title and any bolded first name */
-  .post-header .post-title,
-  h1.post-title .font-weight-bold {
-    color: #000 !important;
-  }
-  
-  .post-header .post-title .font-weight-bold{
-    color: #000 !important;
-  }
 }
 
 .navbar-toggler {
@@ -1044,6 +1035,13 @@ html.transition *:after {
       display: none;
     }
   }
+}
+
+/* About page title color overrides: ensure name text is black even if span has default color */
+.post-header .post-title,
+.post-header .post-title .font-weight-bold,
+h1.post-title .font-weight-bold {
+  color: #000 !important;
 }
 
 progress {

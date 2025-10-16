@@ -15,43 +15,44 @@ hide_title: true
   </style>
   <h2 class="section-title" style="font-weight: bold;">Experience and Publications</h2>
 
-## Application
 
-### Agent
 
-<p>面向复杂环境的智能体系统研究，包括多智能体协作、强化学习与任务/资源调度；关注可泛化的策略学习与可解释的决策流程。</p>
+  <h2>Domain-Specific Platform</h2>
 
-<div class="pubs-placeholder">
-  <h4>Publications</h4>
-  <ul>
-    <li><em>此处预留：与 Agent 方向相关的论文列表</em></li>
-  </ul>
-</div>
+  <h3>ASIC</h3>
 
-## Domain-Specific Platform
+  <p>针对特定工作负载的专用集成电路设计，聚焦算子映射、存储层次优化与片上互连；在能效/性能/面积权衡下进行体系结构协同优化。</p>
 
-### ASIC
+  <div class="pubs-placeholder">
+    <h4>Publications</h4>
+    <ul>
+      <li><em>此处预留：与 ASIC 方向相关的论文列表</em></li>
+    </ul>
+  </div>
 
-<p>针对特定工作负载的专用集成电路设计，聚焦算子映射、存储层次优化与片上互连；在能效/性能/面积权衡下进行体系结构协同优化。</p>
+  <h3>ASIP</h3>
 
-<div class="pubs-placeholder">
-  <h4>Publications</h4>
-  <ul>
-    <li><em>此处预留：与 ASIC 方向相关的论文列表</em></li>
-  </ul>
-</div>
+  <p>专用指令集处理器研究，包含指令定制、微架构协同设计与可重构执行；面向特定领域实现软硬件协同的性能提升与灵活性保障。</p>
 
-### ASIP
+  <div class="pubs-placeholder">
+    <h4>Publications</h4>
+    <ul>
+      <li><em>此处预留：与 ASIP 方向相关的论文列表</em></li>
+    </ul>
+  </div>
+  
+  <h2>Application</h2>
 
-<p>专用指令集处理器研究，包含指令定制、微架构协同设计与可重构执行；面向特定领域实现软硬件协同的性能提升与灵活性保障。</p>
+  <h3>Agent</h3>
 
-<div class="pubs-placeholder">
-  <h4>Publications</h4>
-  <ul>
-    <li><em>此处预留：与 ASIP 方向相关的论文列表</em></li>
-  </ul>
-</div>
+  <p>面向复杂环境的智能体系统研究，包括多智能体协作、强化学习与任务/资源调度；关注可泛化的策略学习与可解释的决策流程。</p>
 
+  <div class="pubs-placeholder">
+    <h4>Publications</h4>
+    <ul>
+      <li><em>此处预留：与 Agent 方向相关的论文列表</em></li>
+    </ul>
+  </div>
 <style>
 .pubs-placeholder {
   margin-top: 1rem;

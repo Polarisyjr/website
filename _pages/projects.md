@@ -19,7 +19,7 @@ hide_title: true
     </style>
     <h2 class="section-title" style="font-weight: bold;">Academics and Coursework</h2>
     
-    <h3 style="color: #666; font-size: 1.2rem; margin-bottom: 0.5rem; font-weight: 600;">Selected List of Courses Taken</h3>
+    <h3 style="color: #666; font-size: 1.4rem; margin-bottom: 0.5rem; margin-top: 1rem; font-weight: 600;">Selected List of Courses Taken</h3>
     <p style="font-style: italic; color: #888; margin-bottom: 2rem;">All courses taken at the University of Michigan.</p>
     
     <div class="table-responsive">
@@ -106,8 +106,8 @@ hide_title: true
     </div>
     
     <!-- Course Projects Section -->
-    <div style="margin-top: 3rem;">
-      <h3 style="color: #666; font-size: 1.2rem; margin-bottom: 0.5rem; font-weight: 600;">Course Projects</h3>
+    <div style="margin-top: 1rem;">
+      <h3 style="color: #666; font-size: 1.4rem; margin-bottom: 0.5rem; font-weight: 600;">Course Projects</h3>
       <p style="font-style: italic; color: #888; margin-bottom: 2rem;">Selected projects from academic coursework.</p>
       <style>
         /* Make course project titles visibly link-styled (blue + underline on hover) */

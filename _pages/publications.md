@@ -17,9 +17,9 @@ hide_title: true
 
 
 
-  <h3 style="color: #666; font-size: 1.2rem; margin-bottom: 0.5rem; margin-top: 2rem; font-weight: 600;">Domain-Specific Platform</h3>
+  <h3 style="color: #666; font-size: 1.4rem; margin-bottom: 0.5rem; margin-top: 1rem; font-weight: 600;">Domain-Specific Platform</h3>
 
-  <h4 style="color: #888; font-size: 1rem; margin-bottom: 0.5rem; font-weight: 600;">ASIC</h4>
+  <h4 style="color: #888; font-style: italic; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">ASIC</h4>
 
   <p>针对特定工作负载的专用集成电路设计，聚焦算子映射、存储层次优化与片上互连；在能效/性能/面积权衡下进行体系结构协同优化。</p>
 
@@ -30,7 +30,7 @@ hide_title: true
     </ul>
   </div>
 
-  <h4 style="color: #888; font-size: 1rem; margin-bottom: 0.5rem; font-weight: 600;">ASIP</h4>
+  <h4 style="color: #888; font-style: italic; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">ASIP</h4>
 
   <p>专用指令集处理器研究，包含指令定制、微架构协同设计与可重构执行；面向特定领域实现软硬件协同的性能提升与灵活性保障。</p>
 
@@ -41,9 +41,9 @@ hide_title: true
     </ul>
   </div>
   
-  <h3 style="color: #666; font-size: 1.2rem; margin-bottom: 0.5rem; margin-top: 2rem; font-weight: 600;">Application</h3>
+  <h3 style="color: #666; font-size: 1.4rem; margin-bottom: 0.5rem; margin-top: 1rem; font-weight: 600;">Application</h3>
 
-  <h4 style="color: #888; font-size: 1rem; margin-bottom: 0.5rem; font-weight: 600;">Agent</h4>
+  <h4 style="color: #888; font-style: italic; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">Agent</h4>
 
   <p>面向复杂环境的智能体系统研究，包括多智能体协作、强化学习与任务/资源调度；关注可泛化的策略学习与可解释的决策流程。</p>
 

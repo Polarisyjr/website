@@ -10,8 +10,10 @@ hide_title: true
 
 <div class="research">
   <style>
-    /* Force section title to be black on Research page */
-    .research .section-title { color: #000 !important; }
+    /* Ensure proper dark mode support for section title */
+    .research .section-title { 
+      color: var(--global-text-color);
+    }
   </style>
   <h2 class="section-title" style="font-weight: bold;">Experience and Publications</h2>
 
@@ -58,15 +60,16 @@ hide_title: true
   margin-top: 1rem;
   margin-bottom: 2rem;
   padding: 1rem;
-  background: #f8f9fa;
-  border-left: 3px solid #007bff;
+  background: var(--global-bg-color);
+  border-left: 3px solid var(--global-theme-color);
   border-radius: 4px;
+  border: 1px solid var(--global-divider-color);
 }
 
 .pubs-placeholder h5 {
   margin: 0 0 0.5rem 0;
   font-size: 0.95rem;
-  color: #495057;
+  color: var(--global-text-color);
   font-weight: 600;
 }
 
@@ -77,6 +80,7 @@ hide_title: true
 
 .pubs-placeholder li {
   margin-bottom: 0.5rem;
+  color: var(--global-text-color);
 }
 </style>
 

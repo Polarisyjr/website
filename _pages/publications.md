@@ -24,9 +24,7 @@ hide_title: true
   <h4 style="color: #888; font-style: italic; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">Application-Specific Integrated Circuit (ASIC)</h4>
   <div class="expandable-content">
     <div class="content-preview">
-      <p>
-      During the first half of 2025, I co-developed <strong>Mozart</strong>, a cross-layer co-design framework that rethinks how modern AI accelerators are built. The project was motivated by a key challenge in AI hardware: traditional monolithic ASICs are efficient but expensive to customize, while general-purpose accelerators lack specialization. 
-      </p>
+      <p>Hi</p>
     </div>
     <div class="content-full" style="display: none;">
       <p>
@@ -62,7 +60,7 @@ hide_title: true
   <div class="expandable-content">
     <div class="content-preview">
       <p>
-      Since the summer, I have been working with Prof. Nathaniel Bleier and Ph.D. student Haoran Jin on formal verification methods for external don't-cares. We soon realized that this domain is already quite mature, leaving limited space for new contributions. Around that time, I was introduced to e-graphs and Prof. Bleier's prior work on Property-Driven Automatic Transformation (PDAT), which ultimately inspired my honors thesis project.
+      Hi
       </p>
     </div>
     <div class="content-full" style="display: none;">
@@ -107,7 +105,7 @@ hide_title: true
   <div class="expandable-content">
     <div class="content-preview">
       <p>
-      This is an era defined by artificial intelligence. With the rapid evolution of large language models (LLMs), the boundary between humans and intelligent agents is being continuously reshaped. The release of Stanford's Smallville (Generative Agents, 2023) sparked widespread discussion, drawing attention to LLM-based agents and their potential to reason, plan, and interact like humans. I was no exception.
+      Hi
       </p>
     </div>
     <div class="content-full" style="display: none;">

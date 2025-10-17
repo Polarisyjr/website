@@ -125,7 +125,7 @@ hide_title: true
             <div class="expandable-content">
               <div class="content-preview">
                 <div class="course-project-desc" style="text-align: justify; text-justify: inter-word;">
-                  <p style="margin: 0 0 0.95rem 0;">A-SOUL is a fully functional out-of-order RISC-V CPU inspired by the MIPS R10K microarchitecture, featuring a unified RTL-level microarchitecture and a highly modular pipeline design. The project implements n-way superscalar execution, register renaming, speculative load scheduling, precise states, and early branch resolution within a synthesizable SystemVerilog framework.</p>
+                  <p style="margin: 0 0 0.95rem 0;">Hi</p>
                 </div>
               </div>
               <div class="content-full" style="display: none;">
@@ -151,7 +151,7 @@ hide_title: true
             <div class="expandable-content">
               <div class="content-preview">
                 <div class="course-project-desc" style="text-align: justify; text-justify: inter-word;">
-                  <p style="margin: 0 0 0.95rem 0;">WriteBoost RCU extends the classic Read-Copy-Update (RCU) synchronization mechanism by integrating update-side coordination into the library, eliminating the need for external locks. Compared to liburcu and Folly RCU, it maintains RCU's wait-free reads while simplifying writer logic and improving throughput in balanced workloads.</p>
+                  <p style="margin: 0 0 0.95rem 0;">Hi.</p>
                 </div>
               </div>
               <div class="content-full" style="display: none;">

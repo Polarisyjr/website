@@ -122,14 +122,24 @@ hide_title: true
             <h4 style="margin-bottom: 0.5rem; font-weight: 600;"><a href="{{ '/assets/pdf/EECS_470_Final_Report.pdf' | relative_url }}" target="_blank">A-SOUL: Advanced n-way Superscalar Out-of-order Unified Logic design</a></h4>
             <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.85rem;">EECS 470 - Computer Architecture</p>
             <img class="course-project-img zoomable" src="{{ '/assets/img/Project_Architecture.png' | relative_url }}" alt="project architecture" style="width:100%; max-width:960px; height:auto; object-fit:cover; border-radius:6px; margin:0 0 0.95rem 0; cursor:zoom-in;"/>
-            <div class="course-project-desc" style="text-align: justify; text-justify: inter-word;">
-              <p style="margin: 0 0 0.95rem 0;">A-SOUL is a fully functional out-of-order RISC-V CPU inspired by the MIPS R10K microarchitecture, featuring a unified RTL-level microarchitecture and a highly modular pipeline design. The project implements n-way superscalar execution, register renaming, speculative load scheduling, precise states, and early branch resolution within a synthesizable SystemVerilog framework.</p>
+            <div class="expandable-content">
+              <div class="content-preview">
+                <div class="course-project-desc" style="text-align: justify; text-justify: inter-word;">
+                  <p style="margin: 0 0 0.95rem 0;">A-SOUL is a fully functional out-of-order RISC-V CPU inspired by the MIPS R10K microarchitecture, featuring a unified RTL-level microarchitecture and a highly modular pipeline design. The project implements n-way superscalar execution, register renaming, speculative load scheduling, precise states, and early branch resolution within a synthesizable SystemVerilog framework.</p>
+                </div>
+              </div>
+              <div class="content-full" style="display: none;">
+                <div class="course-project-desc" style="text-align: justify; text-justify: inter-word;">
+                  <p style="margin: 0 0 0.95rem 0;">A-SOUL is a fully functional out-of-order RISC-V CPU inspired by the MIPS R10K microarchitecture, featuring a unified RTL-level microarchitecture and a highly modular pipeline design. The project implements n-way superscalar execution, register renaming, speculative load scheduling, precise states, and early branch resolution within a synthesizable SystemVerilog framework.</p>
 
-              <p style="margin: 0 0 0.95rem 0;">The processor pipeline supports instruction-level parallelism with a multi-issue dispatch stage, a Reservation Station and Reorder Buffer, and a Load-Store Queue (LSQ) capable of byte-level forwarding and non-blocking memory access through an MSHR-based D-Cache. The instruction side incorporates GShare and Tournament branch predictors, return address stack, and a configurable adaptive instruction prefetcher with victim cache for reducing i-cache misses.</p>
+                  <p style="margin: 0 0 0.95rem 0;">The processor pipeline supports instruction-level parallelism with a multi-issue dispatch stage, a Reservation Station and Reorder Buffer, and a Load-Store Queue (LSQ) capable of byte-level forwarding and non-blocking memory access through an MSHR-based D-Cache. The instruction side incorporates GShare and Tournament branch predictors, return address stack, and a configurable adaptive instruction prefetcher with victim cache for reducing i-cache misses.</p>
 
-              <p style="margin: 0 0 0.95rem 0;">To improve performance, we designed a speculative LSQ that issues loads before dependent stores are fully resolved, reducing pipeline stalls caused by load/store dependency chains. This optimization alone improved CPI by 0.15 (≈ 8.1%) and eliminated 21 % of issue-stage stalls, bringing the overall average CPI down to ~1.7 at a 7.7 ns clock period after timing closure.</p>
+                  <p style="margin: 0 0 0.95rem 0;">To improve performance, we designed a speculative LSQ that issues loads before dependent stores are fully resolved, reducing pipeline stalls caused by load/store dependency chains. This optimization alone improved CPI by 0.15 (≈ 8.1%) and eliminated 21 % of issue-stage stalls, bringing the overall average CPI down to ~1.7 at a 7.7 ns clock period after timing closure.</p>
 
-              <p style="margin: 0;">Beyond RTL design, the project features a robust testing and profiling infrastructure. We developed a top-down, counter-based performance simulator and an automated experiment pipeline for architectural design-space exploration. The framework systematically sweeps key microarchitectural parameters, collects CPI, occupancy, and stall breakdowns, and generates detailed visualizations for bottleneck identification and performance analysis. These tools enabled iterative optimization of critical paths (e.g., ROB/RS sizing, pipeline partitioning) and empirical validation across 20+ C benchmarks against a verified in-order golden model.</p>
+                  <p style="margin: 0;">Beyond RTL design, the project features a robust testing and profiling infrastructure. We developed a top-down, counter-based performance simulator and an automated experiment pipeline for architectural design-space exploration. The framework systematically sweeps key microarchitectural parameters, collects CPI, occupancy, and stall breakdowns, and generates detailed visualizations for bottleneck identification and performance analysis. These tools enabled iterative optimization of critical paths (e.g., ROB/RS sizing, pipeline partitioning) and empirical validation across 20+ C benchmarks against a verified in-order golden model.</p>
+                </div>
+              </div>
+              <button class="toggle-btn" onclick="toggleContent(this)">Read More ▼</button>
             </div>
           </div>
         </div>
@@ -138,12 +148,22 @@ hide_title: true
           <div>
             <h4 style="margin-bottom: 0.5rem; font-weight: 600;"><a href="{{ '/assets/pdf/582_final_report.pdf' | relative_url }}" target="_blank">WriteBoost RCU: an Enhanced RCU Library that provides an RCU-centric Update-side Synchronization Mechanism</a></h4>
             <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">CSE 582 - Advanced Operating Systems</p>
-            <div class="course-project-desc" style="text-align: justify; text-justify: inter-word;">
-              <p style="margin: 0 0 0.95rem 0;">WriteBoost RCU extends the classic Read-Copy-Update (RCU) synchronization mechanism by integrating update-side coordination into the library, eliminating the need for external locks. Compared to liburcu and Folly RCU, it maintains RCU’s wait-free reads while simplifying writer logic and improving throughput in balanced workloads.</p>
+            <div class="expandable-content">
+              <div class="content-preview">
+                <div class="course-project-desc" style="text-align: justify; text-justify: inter-word;">
+                  <p style="margin: 0 0 0.95rem 0;">WriteBoost RCU extends the classic Read-Copy-Update (RCU) synchronization mechanism by integrating update-side coordination into the library, eliminating the need for external locks. Compared to liburcu and Folly RCU, it maintains RCU's wait-free reads while simplifying writer logic and improving throughput in balanced workloads.</p>
+                </div>
+              </div>
+              <div class="content-full" style="display: none;">
+                <div class="course-project-desc" style="text-align: justify; text-justify: inter-word;">
+                  <p style="margin: 0 0 0.95rem 0;">WriteBoost RCU extends the classic Read-Copy-Update (RCU) synchronization mechanism by integrating update-side coordination into the library, eliminating the need for external locks. Compared to liburcu and Folly RCU, it maintains RCU's wait-free reads while simplifying writer logic and improving throughput in balanced workloads.</p>
 
-              <p style="margin: 0 0 0.95rem 0;">The design introduces a single updater/reclaimer model, batch update processing, and an object pool for memory reuse—together removing retirement-list contention and amortizing copy costs. An epoch-based reader–reclaimer synchronization scheme ensures safe reclamation with amortized O(1) complexity and zero reader contention.</p>
+                  <p style="margin: 0 0 0.95rem 0;">The design introduces a single updater/reclaimer model, batch update processing, and an object pool for memory reuse—together removing retirement-list contention and amortizing copy costs. An epoch-based reader–reclaimer synchronization scheme ensures safe reclamation with amortized O(1) complexity and zero reader contention.</p>
 
-              <p style="margin: 0;">Evaluated against existing RCU and mutex-based mechanisms, WriteBoost RCU achieved 3.49 B reads/s and 35 M writes/s (8 thread), outperforming Folly RCU by ~1.8× on reads and maintaining competitive write performance. The project demonstrates that RCU can scale effectively beyond read-heavy workloads, combining high programmability with robust multi-core efficiency.</p>
+                  <p style="margin: 0;">Evaluated against existing RCU and mutex-based mechanisms, WriteBoost RCU achieved 3.49 B reads/s and 35 M writes/s (8 thread), outperforming Folly RCU by ~1.8× on reads and maintaining competitive write performance. The project demonstrates that RCU can scale effectively beyond read-heavy workloads, combining high programmability with robust multi-core efficiency.</p>
+                </div>
+              </div>
+              <button class="toggle-btn" onclick="toggleContent(this)">Read More ▼</button>
             </div>
           </div>
         </div>
@@ -251,4 +271,52 @@ hide_title: true
   closeBtn.addEventListener('click', close);
   document.addEventListener('keydown', e=>{ if(e.key==='Escape' && backdrop.classList.contains('active')) close(); });
 })();
+</script>
+
+<!-- Expandable Content Styles and Script -->
+<style>
+.expandable-content {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.toggle-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  background: var(--global-theme-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+.toggle-btn:active {
+  transform: translateY(0);
+}
+</style>
+
+<script>
+function toggleContent(button) {
+  const container = button.parentElement;
+  const preview = container.querySelector('.content-preview');
+  const full = container.querySelector('.content-full');
+  
+  if (full.style.display === 'none') {
+    preview.style.display = 'none';
+    full.style.display = 'block';
+    button.textContent = 'Show Less ▲';
+  } else {
+    preview.style.display = 'block';
+    full.style.display = 'none';
+    button.textContent = 'Read More ▼';
+  }
+}
 </script>

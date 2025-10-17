@@ -22,8 +22,19 @@ hide_title: true
   <h3 style="color: #666; font-size: 1.4rem; margin-bottom: 0.5rem; margin-top: 1rem; font-weight: 600;">Domain-Specific Hardware</h3>
 
   <h4 style="color: #888; font-style: italic; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">Application-Specific Integrated Circuit (ASIC)</h4>
+  <p>
+  During the first half of 2025, I co-developed <strong>Mozart</strong>, a cross-layer co-design framework that rethinks how modern AI accelerators are built. The project was motivated by a key challenge in AI hardware: traditional monolithic ASICs are efficient but expensive to customize, while general-purpose accelerators lack specialization. 
+  </p>
 
-  <p>针对特定工作负载的专用集成电路设计，聚焦算子映射、存储层次优化与片上互连；在能效/性能/面积权衡下进行体系结构协同优化。</p>
+  <p>
+  To address this, we combined <em>operator-level disaggregation</em>—which maps each neural operator to its most suitable compute and memory subsystem—with <em>chiplet ecosystem co-design</em> that identifies a minimal, reusable pool of chiplets to amortize the non-recurring engineering (NRE) cost of custom silicon. This combination allows bespoke accelerators to achieve both architectural efficiency and economic scalability. 
+  </p>
+
+  <p>
+  At its core, Mozart employs a hierarchical optimization framework integrating simulated annealing, genetic algorithms, convex-hull–based layer mapping, and constraint programming. Together, these layers co-optimize chiplet selection, tensor fusion, software mapping, and physical design validation under unified energy, latency, and cost objectives—bridging architectural insight with manufacturable, sustainable AI hardware design.
+  </p>
+
+  <p> Through this project, I gained a deep understanding of <em>dataflow accelerator</em> such as <strong>Eyeriss</strong> and <strong>Simba</strong>, as well as <em>mapping-space explorer</em> like <strong>Timeloop</strong> and <strong>Scale-sim</strong>. Working on Mozart allowed me to see how design space exploration (DSE) connects architectural abstraction, hardware constraints, and algorithmic optimization into a unified process. It trained me to reason about hardware not just in terms of microarchitecture, but as a multidimensional search problem—balancing performance, energy, and cost under real physical design limits. This experience laid the methodological foundation for my subsequent research in ISA-hardware co-design and domain-specific architecture exploration. </p>
 
   <div class="pubs-placeholder">
     <h5>Publications</h5>

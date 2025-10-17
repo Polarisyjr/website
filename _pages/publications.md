@@ -73,7 +73,21 @@ hide_title: true
 
   <h4 style="color: #888; font-style: italic; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">Agent</h4>
 
-  <p>面向复杂环境的智能体系统研究，包括多智能体协作、强化学习与任务/资源调度；关注可泛化的策略学习与可解释的决策流程。</p>
+  <p>
+  This is an era defined by artificial intelligence. With the rapid evolution of large language models (LLMs), the boundary between humans and intelligent agents is being continuously reshaped. The release of Stanford's Smallville (Generative Agents, 2023) sparked widespread discussion, drawing attention to LLM-based agents and their potential to reason, plan, and interact like humans. I was no exception.
+  </p>
+
+  <p>
+  Beginning in 2024, I started exploring the potential of LLM agents—not only in problem solving, but also in deep semantic understanding over long contexts and in modeling human behavior within transportation systems.
+  </p>
+   
+  <p>
+  LLMs are transforming the world around us, quietly integrating into our everyday lives. In certain domains, they have already surpassed human performance, yet they still fall short of the ideal artificial general intelligence (AGI) we aspire to build. Motivated by this, I gradually shifted my focus toward computer architecture, aiming to contribute to the foundational infrastructure that empowers the next generation of AI. At the same time, I closely follow cutting-edge AI directions such as neuro-symbolic reasoning and embodied intelligence. 
+  </p>
+
+  <p>
+  To me, the future of AI is not only about smarter algorithms, but also about efficient and sustainable systems that truly support them.
+  </p>
 
   <div class="pubs-placeholder">
     <h5>Publications</h5>

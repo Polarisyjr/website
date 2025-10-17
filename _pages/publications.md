@@ -39,15 +39,24 @@ hide_title: true
   <h4 style="color: #888; font-style: italic; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">Application-Specific Instruction-set Processor (ASIP)</h4>
 
   <p>
-  Since the summer, I have been working with Prof. Nathaniel Bleier and Ph.D. student Haoran Jin on formal verification methods for external don’t-cares. We soon realized that this domain is already quite mature, leaving limited space for new contributions. Around that time, I was introduced to e-graphs and Prof. Bleier’s prior work on Property-Driven Automatic Transformation (PDAT), which ultimately inspired my honors thesis project.
+  Since the summer, I have been working with Prof. Nathaniel Bleier and Ph.D. student Haoran Jin on formal verification methods for external don't-cares. We soon realized that this domain is already quite mature, leaving limited space for new contributions. Around that time, I was introduced to e-graphs and Prof. Bleier's prior work on Property-Driven Automatic Transformation (PDAT), which ultimately inspired my honors thesis project.
+  </p>
 
+  <p>
   My honors thesis aims to achieve application-specific ISA subset customization through assembly-level rewriting, followed by constraint-driven hardware trimming under ISA-aware synthesis. The project adopts an ISA–hardware co-design methodology, representing the first attempt to apply e-graphs directly at the assembly level.
+  </p>
 
-  Building on PDAT’s property-driven foundation, we integrated induction-based signal correspondence to prune irrelevant or unreachable circuits. This enhancement delivers over 100× faster runtime while maintaining—or even improving—the result quality compared to the original PDAT framework.
+  <p>
+  Building on PDAT's property-driven foundation, we integrated induction-based signal correspondence to prune irrelevant or unreachable circuits. This enhancement delivers over 100× faster runtime while maintaining—or even improving—the result quality compared to the original PDAT framework.
+  </p>
 
+  <p>
   Importantly, the system is designed as a general co-design framework, rather than a fixed ASIP generator for a single workload. Once an ISA subset is derived for Application A, the same subset can be used to rewrite and deploy Application B, effectively amortizing the non-recurring engineering (NRE) cost. The framework enables designers to explore Pareto-optimal ISA subsets across performance, power, and area, supporting scalable and workload-aware hardware customization.
+  </p>
 
-  This project, rooted in ISA–hardware co-design and formal synthesis, has fundamentally broadened my perspective on computer architecture. It bridges my understanding of traditional architectural design with deeper insights into cross-layer trade-offs in modern chip design.</p>
+  <p>
+  This project deepened my understanding of traditional computer architecture while revealing that cross-layer co-design principles—often emphasized in modern AI infrastructure—can also advance conventional architectures. It has encouraged me to think about systems holistically, recognizing how interactions across abstraction layers shape performance, scalability, and efficiency.
+  </p>
 
   <div class="pubs-placeholder">
     <h5>Publications</h5>

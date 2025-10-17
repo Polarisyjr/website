@@ -21,7 +21,7 @@ hide_title: true
 
   <h3 style="color: #666; font-size: 1.4rem; margin-bottom: 0.5rem; margin-top: 1rem; font-weight: 600;">Domain-Specific Platform</h3>
 
-  <h4 style="color: #888; font-style: italic; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">ASIC</h4>
+  <h4 style="color: #888; font-style: italic; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">Application-Specific Integrated Circuit (ASIC)</h4>
 
   <p>针对特定工作负载的专用集成电路设计，聚焦算子映射、存储层次优化与片上互连；在能效/性能/面积权衡下进行体系结构协同优化。</p>
 
@@ -36,9 +36,18 @@ hide_title: true
     </ul>
   </div>
 
-  <h4 style="color: #888; font-style: italic; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">ASIP</h4>
+  <h4 style="color: #888; font-style: italic; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">Application-Specific Instruction-set Processor (ASIP)</h4>
 
-  <p>专用指令集处理器研究，包含指令定制、微架构协同设计与可重构执行；面向特定领域实现软硬件协同的性能提升与灵活性保障。</p>
+  <p>
+  Since the summer, I have been working with Prof. Nathaniel Bleier and Ph.D. student Haoran Jin on formal verification methods for external don’t-cares. We soon realized that this domain is already quite mature, leaving limited space for new contributions. Around that time, I was introduced to e-graphs and Prof. Bleier’s prior work on Property-Driven Automatic Transformation (PDAT), which ultimately inspired my honors thesis project.
+
+  My honors thesis aims to achieve application-specific ISA subset customization through assembly-level rewriting, followed by constraint-driven hardware trimming under ISA-aware synthesis. The project adopts an ISA–hardware co-design methodology, representing the first attempt to apply e-graphs directly at the assembly level.
+
+  Building on PDAT’s property-driven foundation, we integrated induction-based signal correspondence to prune irrelevant or unreachable circuits. This enhancement delivers over 100× faster runtime while maintaining—or even improving—the result quality compared to the original PDAT framework.
+
+  Importantly, the system is designed as a general co-design framework, rather than a fixed ASIP generator for a single workload. Once an ISA subset is derived for Application A, the same subset can be used to rewrite and deploy Application B, effectively amortizing the non-recurring engineering (NRE) cost. The framework enables designers to explore Pareto-optimal ISA subsets across performance, power, and area, supporting scalable and workload-aware hardware customization.
+
+  This project, rooted in ISA–hardware co-design and formal synthesis, has fundamentally broadened my perspective on computer architecture. It bridges my understanding of traditional architectural design with deeper insights into cross-layer trade-offs in modern chip design.</p>
 
   <div class="pubs-placeholder">
     <h5>Publications</h5>

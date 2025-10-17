@@ -19,7 +19,7 @@ hide_title: true
 
 
 
-  <h3 style="color: #666; font-size: 1.4rem; margin-bottom: 0.5rem; margin-top: 1rem; font-weight: 600;">Domain-Specific Platform</h3>
+  <h3 style="color: #666; font-size: 1.4rem; margin-bottom: 0.5rem; margin-top: 1rem; font-weight: 600;">Domain-Specific Hardware</h3>
 
   <h4 style="color: #888; font-style: italic; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">Application-Specific Integrated Circuit (ASIC)</h4>
 

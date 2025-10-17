@@ -15,57 +15,6 @@ hide_title: true
       color: var(--global-text-color);
     }
   </style>
-  
-  <!-- Button Style Test Section -->
-  <div style="background: #f8f9fa; padding: 2rem; margin-bottom: 2rem; border-radius: 8px; border: 2px dashed #dee2e6;">
-    <h3 style="margin-top: 0;">Button Style Options (Test Area)</h3>
-    <p style="color: #666; font-size: 0.9rem;">Click to test each style. Remove this section after choosing.</p>
-    
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
-      
-      <div>
-        <p style="font-weight: 600; margin-bottom: 0.5rem;">1. Deep Gray</p>
-        <button class="btn-style-1" onclick="alert('Style 1')">Read More ▼</button>
-      </div>
-      
-      <div>
-        <p style="font-weight: 600; margin-bottom: 0.5rem;">2. Outline</p>
-        <button class="btn-style-2" onclick="alert('Style 2')">Read More ▼</button>
-      </div>
-      
-      <div>
-        <p style="font-weight: 600; margin-bottom: 0.5rem;">3. Light Background</p>
-        <button class="btn-style-3" onclick="alert('Style 3')">Read More ▼</button>
-      </div>
-      
-      <div>
-        <p style="font-weight: 600; margin-bottom: 0.5rem;">4. Text Link</p>
-        <button class="btn-style-4" onclick="alert('Style 4')">Read More ▼</button>
-      </div>
-      
-      <div>
-        <p style="font-weight: 600; margin-bottom: 0.5rem;">5. Dark Professional</p>
-        <button class="btn-style-5" onclick="alert('Style 5')">Read More ▼</button>
-      </div>
-      
-      <div>
-        <p style="font-weight: 600; margin-bottom: 0.5rem;">6. Gradient</p>
-        <button class="btn-style-6" onclick="alert('Style 6')">Read More ▼</button>
-      </div>
-      
-      <div>
-        <p style="font-weight: 600; margin-bottom: 0.5rem;">7. Soft Blue</p>
-        <button class="btn-style-7" onclick="alert('Style 7')">Read More ▼</button>
-      </div>
-      
-      <div>
-        <p style="font-weight: 600; margin-bottom: 0.5rem;">Current (Theme Color)</p>
-        <button class="toggle-btn" onclick="alert('Current')">Read More ▼</button>
-      </div>
-      
-    </div>
-  </div>
-  
   <h2 class="section-title" style="font-weight: bold;">Experience and Publications</h2>
 
 
@@ -270,9 +219,9 @@ hide_title: true
   display: inline-block;
   margin-top: 0.5rem;
   padding: 0.4rem 1rem;
-  background: var(--global-theme-color);
-  color: white;
-  border: none;
+  background: transparent;
+  color: var(--global-theme-color);
+  border: 2px solid var(--global-theme-color);
   border-radius: 4px;
   cursor: pointer;
   font-size: 0.9rem;
@@ -280,98 +229,13 @@ hide_title: true
 }
 
 .toggle-btn:hover {
-  opacity: 0.85;
+  background: var(--global-theme-color);
+  color: white;
   transform: translateY(-1px);
 }
 
 .toggle-btn:active {
   transform: translateY(0);
-}
-
-/* Button style test options */
-.btn-style-1, .btn-style-2, .btn-style-3, .btn-style-4, .btn-style-5, .btn-style-6, .btn-style-7 {
-  display: inline-block;
-  padding: 0.4rem 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-}
-
-/* 1. Deep Gray */
-.btn-style-1 {
-  background: #6c757d;
-  color: white;
-  border: none;
-}
-.btn-style-1:hover {
-  background: #5a6268;
-  transform: translateY(-1px);
-}
-
-/* 2. Outline */
-.btn-style-2 {
-  background: transparent;
-  color: var(--global-theme-color);
-  border: 2px solid var(--global-theme-color);
-}
-.btn-style-2:hover {
-  background: var(--global-theme-color);
-  color: white;
-}
-
-/* 3. Light Background */
-.btn-style-3 {
-  background: #f8f9fa;
-  color: #495057;
-  border: 1px solid #dee2e6;
-}
-.btn-style-3:hover {
-  background: #e9ecef;
-}
-
-/* 4. Text Link */
-.btn-style-4 {
-  background: none;
-  color: var(--global-theme-color);
-  border: none;
-  text-decoration: underline;
-  padding: 0.2rem 0.5rem;
-}
-.btn-style-4:hover {
-  color: #0a58ca;
-}
-
-/* 5. Dark Professional */
-.btn-style-5 {
-  background: #2c3e50;
-  color: #ecf0f1;
-  border: none;
-}
-.btn-style-5:hover {
-  background: #34495e;
-}
-
-/* 6. Gradient */
-.btn-style-6 {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border: none;
-}
-.btn-style-6:hover {
-  opacity: 0.9;
-  transform: translateY(-1px);
-}
-
-/* 7. Soft Blue */
-.btn-style-7 {
-  background: #5bc0de;
-  color: white;
-  border: none;
-}
-.btn-style-7:hover {
-  background: #46b8da;
-  transform: translateY(-1px);
 }
 </style>
 

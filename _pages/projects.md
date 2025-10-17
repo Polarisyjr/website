@@ -284,9 +284,9 @@ hide_title: true
   display: inline-block;
   margin-top: 0.5rem;
   padding: 0.4rem 1rem;
-  background: var(--global-theme-color);
-  color: white;
-  border: none;
+  background: transparent;
+  color: var(--global-theme-color);
+  border: 2px solid var(--global-theme-color);
   border-radius: 4px;
   cursor: pointer;
   font-size: 0.9rem;
@@ -294,7 +294,8 @@ hide_title: true
 }
 
 .toggle-btn:hover {
-  opacity: 0.85;
+  background: var(--global-theme-color);
+  color: white;
   transform: translateY(-1px);
 }
 

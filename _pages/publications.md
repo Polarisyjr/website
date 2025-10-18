@@ -48,7 +48,7 @@ hide_title: true
     <h5>Publications</h5>
     <ul class="pub-list">
       <li class="pub-item">
-        <div class="pub-title">Mozart: A Chiplet Ecosystem-Accelerator Codesign Framework for Composable Bespoke Application Specific Integrated Circuits</div>
+        <div class="pub-title"><a href="https://arxiv.org/abs/2510.08873v1" style="text-decoration: none; color: inherit;">Mozart: A Chiplet Ecosystem-Accelerator Codesign Framework for Composable Bespoke Application Specific Integrated Circuits</a></div>
         <div class="pub-authors">Haoran Jin, <strong>Jirong Yang</strong>, Yunpeng Liu, Barry Lyu, Kangqi Zhang, Nathaniel Bleier</div>
         <div class="pub-venue">Preprint, Submitted to ASPLOS 2026</div>
       </li>
@@ -132,7 +132,7 @@ hide_title: true
     <h5>Publications</h5>
     <ul class="pub-list">
       <li class="pub-item">
-        <div class="pub-title">Toward llm-agent-based modeling of transportation systems: A conceptual framework</div>
+        <div class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S3050860625000018" style="text-decoration: none; color: inherit;">Toward llm-agent-based modeling of transportation systems: A conceptual framework</a></div>
         <div class="pub-authors">Tianming Liu, <strong>Jirong Yang</strong>, Yafeng Yin</div>
         <div class="pub-venue">Artificial Intelligence for Transportation, 2025</div>
       </li>

@@ -60,7 +60,7 @@ hide_title: true
   <div class="expandable-content">
     <div class="content-preview">
       <p>
-      Hi
+      This project is an ISA–hardware co-design framework that uses e-graph rewriting at the assembly level to derive minimal, application-specific ISA subsets and guide circuit pruning under ISA-aware formal constraints for efficient ASIP generation.
       </p>
     </div>
     <div class="content-full" style="display: none;">

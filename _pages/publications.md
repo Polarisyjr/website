@@ -24,7 +24,7 @@ hide_title: true
   <h4 style="color: #888; font-style: italic; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">Application-Specific Integrated Circuit (ASIC)</h4>
   <div class="expandable-content">
     <div class="content-preview">
-      <p>Hi</p>
+      <p>Mozart introduces a chiplet ecosystem–accelerator co-design framework that constructs low-cost bespoke ASICs (BASICs) by leveraging operator-level disaggregation and composing accelerators from a reusable chiplet pool, thereby amortizing non-recurring engineering (NRE) costs while preserving high performance.</p>
     </div>
     <div class="content-full" style="display: none;">
       <p>

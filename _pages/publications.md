@@ -215,6 +215,11 @@ hide_title: true
   margin-bottom: 1rem;
 }
 
+.expandable-content p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .toggle-btn {
   display: inline-block;
   margin-top: 0.5rem;

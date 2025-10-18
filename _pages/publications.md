@@ -105,7 +105,7 @@ hide_title: true
   <div class="expandable-content">
     <div class="content-preview">
       <p>
-      Hi
+      Beginning in 2024, I began exploring the potential of LLM agents in problem solving, deep semantic understanding over long contexts, and modeling human behavior within transportation systems. Over time, this exploration led me to shift my focus toward computer architecture.
       </p>
     </div>
     <div class="content-full" style="display: none;">

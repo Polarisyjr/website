@@ -125,7 +125,7 @@ hide_title: true
             <div class="expandable-content">
               <div class="content-preview">
                 <div class="course-project-desc" style="text-align: justify; text-justify: inter-word;">
-                  <p style="margin: 0 0 0.95rem 0;">WriteBoost RCU builds on the classic Read-Copy-Update (RCU) paradigm, extending it with integrated update-side coordination and epoch-based reclamation to achieve lock-free writes, wait-free reads, and contention-free memory management.</p>
+                  <p style="margin: 0 0 0.95rem 0;">A-SOUL is a modular out-of-order RISC-V CPU inspired by MIPS R10K, featuring n-way superscalar execution, speculative LSQ and cache optimizations, advanced branch prediction, and a full simulation–profiling framework for microarchitectural exploration and performance tuning.</p>
                 </div>
               </div>
               <div class="content-full" style="display: none;">
@@ -151,7 +151,7 @@ hide_title: true
             <div class="expandable-content">
               <div class="content-preview">
                 <div class="course-project-desc" style="text-align: justify; text-justify: inter-word;">
-                  <p style="margin: 0 0 0.95rem 0;">A-SOUL is a modular out-of-order RISC-V CPU inspired by MIPS R10K, featuring n-way superscalar execution, speculative LSQ and cache optimizations, advanced branch prediction, and a full simulation–profiling framework for microarchitectural exploration and performance tuning.</p>
+                  <p style="margin: 0 0 0.95rem 0;">WriteBoost RCU builds on the classic Read-Copy-Update (RCU) paradigm, extending it with integrated update-side coordination and epoch-based reclamation to achieve lock-free writes, wait-free reads, and contention-free memory management.</p>
                 </div>
               </div>
               <div class="content-full" style="display: none;">

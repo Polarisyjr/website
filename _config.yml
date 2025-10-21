@@ -382,11 +382,8 @@ enable_google_analytics: false # enables google analytics
 # -----------------------------------------------------------------------------
 
 visitor_map:
-  enabled: true # 是否启用访客地图
-  title: "map" # 地图标题
-  description: "map" # 描述文字
-  clustrmaps_id: "R1Ulqk2j1x0ZQxF8b-_XgtkcLc17W9BKT-QWA88CsKM" # 请替换为您的实际 ID
-  show_analytics_link: true # 是否显示后台链接
+  enabled: true # 是否显示访客地图 (true=显示，false=仅后台记录)
+  clustrmaps_id: "R1Ulqk2j1x0ZQxF8b-_XgtkcLc17W9BKT-QWA88CsKM" # 您的 ClustrMaps ID
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)

@@ -1,0 +1,148 @@
+<!-- 访客地图组件 -->
+{% if site.visitor_map.enabled %}
+<div class="visitor-map-section mt-5 pt-4 border-top">
+  <div class="row">
+    <div class="col-lg-8">
+      <h4 class="mb-3">
+        <i class="fas fa-globe-americas"></i> 
+        {% if site.visitor_map.title %}{{ site.visitor_map.title }}{% else %}访客地图{% endif %}
+      </h4>
+      <p class="text-muted mb-3">
+        {% if site.visitor_map.description %}{{ site.visitor_map.description }}{% else %}感谢来自世界各地的访客！{% endif %}
+      </p>
+      
+      <!-- ClustrMaps 访客地图 -->
+      <div class="visitor-map-widget">
+        {% if site.visitor_map.clustrmaps_id %}
+          <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d={{ site.visitor_map.clustrmaps_id }}&cl=ffffff&w=a"></script>
+        {% else %}
+          <div class="visitor-map-placeholder">
+            <div class="text-center py-5">
+              <i class="fas fa-map-marked-alt fa-3x text-muted mb-3"></i>
+              <h5 class="text-muted">访客地图</h5>
+              <p class="text-muted small">
+                请在 <code>_config.yml</code> 中配置 <code>visitor_map.clustrmaps_id</code>
+              </p>
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+    
+    <div class="col-lg-4">
+      <div class="visitor-stats">
+        <h5 class="mb-3">访问统计</h5>
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number" id="total-pageviews">--</div>
+            <div class="stat-label">页面浏览量</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" id="total-countries">--</div>
+            <div class="stat-label">国家/地区</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" id="total-cities">--</div>
+            <div class="stat-label">城市</div>
+          </div>
+        </div>
+        
+        {% if site.visitor_map.show_analytics_link %}
+        <div class="mt-3">
+          <small class="text-muted">
+            <i class="fas fa-chart-line"></i> 
+            详细数据请查看 
+            <a href="https://clustrmaps.com/site/{{ site.visitor_map.clustrmaps_id }}" target="_blank" class="text-decoration-none">
+              ClustrMaps 后台
+            </a>
+          </small>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.visitor-map-section {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.visitor-map-widget {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visitor-map-placeholder {
+  width: 100%;
+  height: 300px;
+  background: #f8f9fa;
+  border: 2px dashed #dee2e6;
+  border-radius: 8px;
+}
+
+.visitor-stats {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  height: fit-content;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 1rem;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.stat-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 0.25rem;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .visitor-map-section {
+    padding: 1rem;
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+</style>
+
+<script>
+// 简单的统计更新（如果需要的话）
+document.addEventListener('DOMContentLoaded', function() {
+  // 这里可以添加从 ClustrMaps API 获取数据的逻辑
+  // 目前显示占位符数据
+  document.getElementById('total-pageviews').textContent = '--';
+  document.getElementById('total-countries').textContent = '--';
+  document.getElementById('total-cities').textContent = '--';
+});
+</script>
+{% endif %}

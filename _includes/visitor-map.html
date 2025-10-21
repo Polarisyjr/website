@@ -1,19 +1,29 @@
 <!-- 访客地图组件 -->
 {% if site.visitor_map.enabled %}
-<div class="visitor-map-section mt-4">
-  <div class="text-center">
-    {% if site.visitor_map.clustrmaps_id %}
-    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=R1Ulqk2j1xOZQxF8b-_XgtkcLc17W9BKT-QWA88CsKM&cl=ffffff&w=a"></script>
-    {% else %}
-      <p class="text-muted">请在 _config.yml 中配置 clustrmaps_id</p>
-    {% endif %}
+  <!-- 显示地图 -->
+  <div class="visitor-map-section mt-4">
+    <div class="text-center">
+      <div class="clustrmaps-container">
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=R1Ulqk2j1xOZQxF8b-_XgtkcLc17W9BKT-QWA88CsKM&cl=ffffff&w=200"></script>
+      </div>
+    </div>
   </div>
-</div>
-
-<style>
-.visitor-map-section {
-  margin-top: 2rem;
-  padding: 1rem 0;
-}
-</style>
+  <style>
+  .visitor-map-section {
+    margin-top: 2rem;
+    padding: 1rem 0;
+  }
+  .clustrmaps-container {
+    display: inline-block;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  .clustrmaps-container #clustrmaps img {
+    max-width: 100%;
+    height: auto;
+  }
+  </style>
+{% else %}
+  <!-- 仅后台记录（不可见的1x1像素追踪图片） -->
+  <img src="//www.clustrmaps.com/map_v2.png?d=R1Ulqk2j1xOZQxF8b-_XgtkcLc17W9BKT-QWA88CsKM&cl=ffffff" style="display:none;" alt="visitor tracking">
 {% endif %}

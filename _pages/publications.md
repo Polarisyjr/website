@@ -48,9 +48,9 @@ hide_title: true
     <h5>Publications</h5>
     <ul class="pub-list">
       <li class="pub-item">
-        <div class="pub-title"><a href="https://arxiv.org/abs/2510.08873v1" style="text-decoration: none; color: inherit;">Mozart: A Chiplet Ecosystem-Accelerator Codesign Framework for Composable Bespoke Application Specific Integrated Circuits</a></div>
+        <div class="pub-title"><a href="https://arxiv.org/abs/2510.08873" style="text-decoration: none; color: inherit;">Mozart: A Chiplet Ecosystem-Accelerator Codesign Framework for Composable Bespoke Application Specific Integrated Circuits</a></div>
         <div class="pub-authors">Haoran Jin, <strong>Jirong Yang</strong>, Yunpeng Liu, Barry Lyu, Kangqi Zhang, Nathaniel Bleier</div>
-        <div class="pub-venue">Preprint, Submitted to ASPLOS 2026</div>
+        <div class="pub-venue">arXiv preprint, Submitted to ASPLOS 2026</div>
       </li>
     </ul>
   </div>

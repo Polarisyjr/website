@@ -92,10 +92,12 @@ hide_title: true
     <ul class="pub-list">
       <li class="pub-item">
         <div class="pub-title">æSIP: µArch-aware ASIP-ISA Co-Design via Program Synthesis, Equality Saturation, and External Don’t Cares</div>
+        <div class="pub-authors">Please reach out to me if you are interested in reading the full paper or slides.</div>
         <div class="pub-venue">Honor Thesis; Under submission</div>
       </li>
       <li class="pub-item">
         <div class="pub-title">Scalable Hardware Pruning through Semiformal Verification and Microarchitecture Awareness</div>
+        <div class="pub-authors">Please reach out to me if you are interested in reading the full paper or slides.</div>
         <div class="pub-venue">Under submission</div>
       </li>
     </ul>

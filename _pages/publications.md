@@ -50,7 +50,7 @@ hide_title: true
       <li class="pub-item">
         <div class="pub-title"><a href="https://arxiv.org/abs/2510.08873" style="text-decoration: none; color: inherit;">Mozart: A Chiplet Ecosystem-Accelerator Codesign Framework for Composable Bespoke Application Specific Integrated Circuits</a></div>
         <div class="pub-authors">Haoran Jin, <strong>Jirong Yang</strong>, Yunpeng Liu, Barry Lyu, Kangqi Zhang, Nathaniel Bleier</div>
-        <div class="pub-venue">arXiv preprint, Submitted to ASPLOS 2026</div>
+        <div class="pub-venue">ArXiv preprint; Under submission</div>
       </li>
     </ul>
   </div>
@@ -91,9 +91,12 @@ hide_title: true
     <h5>Publications</h5>
     <ul class="pub-list">
       <li class="pub-item">
-        <div class="pub-title">æSIP: From Equality to Efficiency — ISA-ASIP Co-Design via Equality Saturation</div>
-        <div class="pub-authors">Haoran Jin*, <strong>Jirong Yang*</strong>, Ruijie Gao, Nathaniel Bleier <em>(* Equal contribution; authors listed alphabetically.)</em></div>
-        <div class="pub-venue">Ongoing Honor Thesis, to be submitted</div>
+        <div class="pub-title">æSIP: µArch-aware ASIP-ISA Co-Design via Program Synthesis, Equality Saturation, and External Don’t Cares</div>
+        <div class="pub-venue">Honor Thesis; Under submission</div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-title">Scalable Hardware Pruning through Semiformal Verification and Microarchitecture Awareness</div>
+        <div class="pub-venue">Under submission</div>
       </li>
     </ul>
   </div>
@@ -139,7 +142,7 @@ hide_title: true
       <li class="pub-item">
         <div class="pub-title"><a href="https://arxiv.org/abs/2511.00993" style="text-decoration: none; color: inherit;">Aligning LLM agents with human learning and adjustment behavior: a dual agent approach</a></div>
         <div class="pub-authors">Tianming Liu, <strong>Jirong Yang</strong>, Yafeng Yin, Manzi Li, Linghao Wang, Zheng Zhu</div>
-        <div class="pub-venue"> Preprint, Submitted to Transportation Research Part C: Emerging Technologies, 2026</div>
+        <div class="pub-venue"> Preprint; Submitted to Transportation Research Part C: Emerging Technologies, 2026</div>
       </li>
       <li class="pub-item">
         <div class="pub-title">LiveOIBench: Can Large Language Models Outperform Human Contestants in Informatics Olympiads?</div>

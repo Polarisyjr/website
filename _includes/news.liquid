@@ -1,6 +1,7 @@
 <div class="news">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
+    <!-- DEBUG: news_size = {{ news_size }}, include.limit = {{ include.limit }}, page.announcements.limit = {{ page.announcements.limit }} -->
     <div
       class="table-responsive"
       {% if include.limit and page.announcements.scrollable and news_size > 3 %}
@@ -14,6 +15,7 @@
         {% else %}
           {% assign news_limit = news_size %}
         {% endif %}
+        <!-- DEBUG: news_limit = {{ news_limit }}, actual news items = {{ news | size }} -->
         {% for item in news limit: news_limit %}
           <tr>
             <th scope="row" style="width: 20%">{{ item.date | date: '%b. %Y' }}</th>

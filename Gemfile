@@ -30,7 +30,7 @@ group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
     gem 'httparty'
-    gem 'nokogiri'      # required by feedjira for XML parsing
+    # nokogiri is already included as a dependency of other gems (see Gemfile.lock)
     gem 'observer'       # used by jekyll-scholar
     gem 'ostruct'        # used by jekyll-twitter-plugin
     # gem 'terser'         # used by jekyll-terser

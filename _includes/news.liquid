@@ -1,7 +1,6 @@
 <div class="news">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
-    <!-- DEBUG: news_size = {{ news_size }}, include.limit = {{ include.limit }}, page.announcements.limit = {{ page.announcements.limit }} -->
     <div
       class="table-responsive"
       {% if include.limit and page.announcements.scrollable and news_size > 3 %}
@@ -10,34 +9,23 @@
     >
       <table class="table table-sm table-borderless">
         {% assign news = site.news | reverse %}
-        <!-- DEBUG: limit={{ include.limit }}, page.limit={{ page.announcements.limit }}, total={{ news_size }}, showing={% if include.limit and page.announcements.limit %}{{ page.announcements.limit }}{% else %}all{% endif %} -->
         {% if include.limit and page.announcements.limit %}
-          {% for item in news limit: page.announcements.limit %}
-            <tr>
-              <th scope="row" style="width: 20%">{{ item.date | date: '%b. %Y' }}</th>
-              <td>
-                {% if item.inline %}
-                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                {% else %}
-                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                {% endif %}
-              </td>
-            </tr>
-          {% endfor %}
+          {% assign news_limit = page.announcements.limit %}
         {% else %}
-          {% for item in news %}
-            <tr>
-              <th scope="row" style="width: 20%">{{ item.date | date: '%b. %Y' }}</th>
-              <td>
-                {% if item.inline %}
-                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                {% else %}
-                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                {% endif %}
-              </td>
-            </tr>
-          {% endfor %}
+          {% assign news_limit = news_size %}
         {% endif %}
+        {% for item in news limit: news_limit %}
+          <tr>
+            <th scope="row" style="width: 20%">{{ item.date | date: '%b. %Y' }}</th>
+            <td>
+              {% if item.inline %}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% else %}
+                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
       </table>
     </div>
   {% else %}

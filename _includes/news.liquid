@@ -10,7 +10,7 @@
     >
       <table class="table table-sm table-borderless">
         {% assign news = site.news | reverse %}
-        <!-- DEBUG: include.limit = {{ include.limit }}, page.announcements.limit = {{ page.announcements.limit }}, news_size = {{ news_size }} -->
+        <!-- DEBUG: limit={{ include.limit }}, page.limit={{ page.announcements.limit }}, total={{ news_size }}, showing={% if include.limit and page.announcements.limit %}{{ page.announcements.limit }}{% else %}all{% endif %} -->
         {% if include.limit and page.announcements.limit %}
           {% for item in news limit: page.announcements.limit %}
         {% else %}

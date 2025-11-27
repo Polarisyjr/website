@@ -50,7 +50,7 @@ hide_title: true
       <li class="pub-item">
         <div class="pub-title"><a href="https://arxiv.org/abs/2510.08873" style="text-decoration: none; color: inherit;">Mozart: A Chiplet Ecosystem-Accelerator Codesign Framework for Composable Bespoke Application Specific Integrated Circuits</a></div>
         <div class="pub-authors">Haoran Jin, <strong>Jirong Yang</strong>, Yunpeng Liu, Barry Lyu, Kangqi Zhang, Nathaniel Bleier</div>
-        <div class="pub-venue">ArXiv preprint; Under Review</div>
+        <div class="pub-venue">ArXiv preprint; Under Review at ASPLOS</div>
       </li>
     </ul>
   </div>
@@ -93,12 +93,12 @@ hide_title: true
       <li class="pub-item">
         <div class="pub-title">æSIP: µArch-aware ASIP-ISA Co-Design via Program Synthesis, Equality Saturation, and External Don’t Cares</div>
         <div class="pub-authors">Please reach out to me if you are interested in reading the full paper or slides.</div>
-        <div class="pub-venue">Co-first author; Under Review</div>
+        <div class="pub-venue">Co-first author; Under Review at ISCA</div>
       </li>
       <li class="pub-item">
         <div class="pub-title">Scalable Hardware Pruning through Semiformal Verification and Microarchitecture Awareness</div>
         <div class="pub-authors">Please reach out to me if you are interested in reading the full paper or slides.</div>
-        <div class="pub-venue">Second author; Under Review</div>
+        <div class="pub-venue">Second author; Under Review at DAC</div>
       </li>
     </ul>
   </div>

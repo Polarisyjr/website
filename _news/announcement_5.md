@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on the ASIP/ISA co-design framework that integrates rewrite-driven optimization with µarch-aware BMC-guided pruning was submitted to ISCA.
+Our paper on æSIP, an end-to-end ASIP/ISA co-design framework that integrates rewrite-driven optimization with μarch-aware pruning and NRE-aware ASIP customization, was submitted to ISCA.

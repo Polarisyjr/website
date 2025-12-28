@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on the heterogeneous chiplet ecosystem was submitted to ASPLOS.
+Our paper on the heterogeneous chiplet ecosystem has been submitted to ASPLOS.

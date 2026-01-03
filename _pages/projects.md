@@ -19,8 +19,8 @@ hide_title: true
     </style>
     <h2 class="section-title" style="font-weight: bold;">Academics and Coursework</h2>
     
-    <h3 style="color: #666; font-size: 1.4rem; margin-bottom: 0.5rem; margin-top: 1rem; font-weight: 600;">Selected List of Courses Taken</h3>
-    <p style="font-style: italic; color: #888; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">All courses taken at the University of Michigan.</p>
+    <h3 style="color: #666; font-size: 1.4rem; margin-bottom: 0.5rem; margin-top: 1rem; font-weight: 600;">Selected List of Courses</h3>
+    <p style="font-style: italic; color: #888; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 600;">All listed courses were taken at the University of Michigan.</p>
     
     <div class="table-responsive">
       <table class="table table-bordered course-table" style="line-height: 1.2;">
@@ -44,7 +44,7 @@ hide_title: true
           <tr>
             <td>EECS 443</td>
             <td>Honors Thesis</td>
-            <td>--</td>
+            <td>A+</td>
             <td>Fall 2025</td>
           </tr>
           <tr>

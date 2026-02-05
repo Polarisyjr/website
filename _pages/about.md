@@ -27,7 +27,7 @@ latest_posts:
   #limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a senior undergraduate at the University of Michigan, Ann Arbor, double-majoring in Computer Science (Honors Track) and Statistics. I will graduate this semester and am actively seeking full-time positions and PhD opportunities.
+I am a senior undergraduate at the University of Michigan, Ann Arbor, double-majoring in Computer Science (Honors Track) and Statistics. I will graduate this semester and am actively seeking PhD opportunities.
 
 My research lies at the intersection of computer architecture and systems. Earlier work in AI and robotics made me aware of the growing mismatch between modern applications and the hardware they run on, motivating my interest in more coupled, cross-layer solutions. I now focus on hardware–software co-design for domain-specific architectures, building platforms that align algorithmic structure with hardware efficiency.
 

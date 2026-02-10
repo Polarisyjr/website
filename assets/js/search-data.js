@@ -369,10 +369,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/website/books/the_godfather/";
-            },},{id: "news-our-paper-on-an-asip-isa-co-design-framework-that-integrates-rewriting-and-pruning-has-advanced-past-the-first-review-round-at-isca",
-          title: 'Our paper on an ASIP/ISA co-design framework that integrates rewriting and pruning has...',
-          description: "",
-          section: "News",},{id: "news-grateful-to-have-received-an-internship-offer-from-intel-unfortunately-did-not-proceed-pensive",
+            },},{id: "news-grateful-to-have-received-an-internship-offer-from-intel-unfortunately-did-not-proceed-pensive",
           title: 'Grateful to have received an internship offer from Intel — unfortunately did not...',
           description: "",
           section: "News",},{id: "news-our-paper-on-the-heterogeneous-chiplet-ecosystem-has-been-submitted-to-asplos",
@@ -383,6 +380,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-completed-my-computer-science-honors-thesis-a-and-received-the-cs-honors-degree",
           title: 'Completed my Computer Science Honors Thesis (A+) and received the CS Honors degree....',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-an-asip-isa-co-design-framework-that-integrates-rewriting-and-pruning-has-advanced-past-the-first-review-round-at-isca",
+          title: 'Our paper on an ASIP/ISA co-design framework that integrates rewriting and pruning has...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-08-20 
+date: 2025-11-17
 inline: true
 related_posts: false
 ---
 
-Our paper on the heterogeneous chiplet ecosystem has been submitted to ASPLOS.
+Our paper on the µarch-aware semiformal ASIP-pruning framework has been submitted to DAC.

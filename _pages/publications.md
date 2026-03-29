@@ -144,7 +144,7 @@ hide_title: true
       <li class="pub-item">
         <div class="pub-title"><a href="https://arxiv.org/abs/2511.00993" style="text-decoration: none; color: inherit;">Aligning LLM agents with human learning and adjustment behavior: a dual agent approach</a></div>
         <div class="pub-authors">Tianming Liu, <strong>Jirong Yang</strong>, Yafeng Yin, Manzi Li, Linghao Wang, Zheng Zhu</div>
-        <div class="pub-venue"> Preprint; Major Revision, Transportation Research Part C: Emerging Technologies, 2026</div>
+        <div class="pub-venue"> Preprint; Major Revision, Transportation Research Part C: Emerging Technologies</div>
       </li>
       <li class="pub-item">
         <div class="pub-title">LiveOIBench: Can Large Language Models Outperform Human Contestants in Informatics Olympiads?</div>

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-08-20 
+date: 2025-12-19
 inline: true
 related_posts: false
 ---
 
-Our paper on the heterogeneous chiplet ecosystem has been submitted to ASPLOS.
+Completed my Computer Science Honors Thesis (A+) and received the CS Honors degree.

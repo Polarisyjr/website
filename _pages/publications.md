@@ -149,7 +149,7 @@ hide_title: true
       <li class="pub-item">
         <div class="pub-title">LiveOIBench: Can Large Language Models Outperform Human Contestants in Informatics Olympiads?</div>
         <div class="pub-authors">Kaijian Zou, Aaron Xiong, Yunxiang Zhang, Xinliang Frederick Zhang, Yueqi Ren, <strong>Jirong Yang</strong>, Ayoung Lee, Shitanshu Bhushan, Lu Wang</div>
-        <div class="pub-venue">Under Review at ICML</div>
+        <div class="pub-venue">Under Review at ICML 2026</div>
       </li>
     </ul>
   </div>

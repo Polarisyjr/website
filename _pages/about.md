@@ -33,4 +33,4 @@ My research lies at the intersection of computer architecture and ML systems. Ea
 
 I have been fortunate to conduct research in [LIMOS](https://limos.engin.umich.edu/) and [CCG](https://crucible.eecs.umich.edu/). My earlier work with Prof. [Nathaniel Bleier](https://crucible.eecs.umich.edu/)  focused on chiplet-based ASIC-ecosystem co-design. More recently, I completed an Honors Thesis on ISA–ASIP co-design using e-graphs and μarchitecture-aware semiformal pruning, advised by Prof. [Nathaniel Bleier](https://crucible.eecs.umich.edu/) and Prof. [Krisztian Flautner](https://www.linkedin.com/in/kflautner/), with resulting publications at ISCA. Taken together, these projects illustrate my interest in principled, cross-layer approaches to specialization across the system stack.
 
-I am also actively broadening my focus toward efficient AI, if you are interested in collaboration, feel free to reach out!
+I am also actively broadening my focus toward efficient AI, exploring algorithmic and system-level techniques that complement hardware specialization. If you are interested in collaboration, feel free to reach out!
